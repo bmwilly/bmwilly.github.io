@@ -2,7 +2,7 @@
 
 ## About
 
-I'm a Data Scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/). I'm a father to the raddest little boy in the world. I live in Berlin, Germany. I have many hobbies and I'm bad at all of them.
+I'm a Data Scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/). I live in Berlin, Germany. I have many hobbies and I'm [bad at all of them](https://youtu.be/V5Rzh8XjzHI?t=16).
 
 ## Links
 
@@ -20,14 +20,11 @@ I'm a Data Scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/)
 * [Lichess](https://lichess.org/@/bmwilly)
 * [Last.fm](https://www.last.fm/user/bmwilly)
 * [Discogs](https://www.discogs.com/user/bmwilly9)
-* Spotify: bmwilly
+* [Spotify](https://open.spotify.com/user/brandonwilliams)
 * [Youtube](https://www.youtube.com/@bmwilly/featured)
 * [Mastodon](https://mastodon.social/@bmwilly)
 * [Instagram](https://www.instagram.com/bmwilly9/)
 * [Reddit](https://www.reddit.com/user/bmwilly)
-* Video games
-  * PSN: bmwilly
-  * Nintendo Switch: SW-5169-8473-0023
 
 ## One good song from each decade since modern pop music began
 
