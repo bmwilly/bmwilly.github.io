@@ -2,7 +2,7 @@
 
 ## About
 
-I'm a Data Scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/). I live in Berlin, Germany. I have many hobbies and I'm [bad at all of them](https://youtu.be/V5Rzh8XjzHI?t=16).
+I'm a data scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/). I live in Berlin, Germany. I have many hobbies and I'm [bad at all of them](https://youtu.be/V5Rzh8XjzHI?t=16).
 
 ## Links
 
