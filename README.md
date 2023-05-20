@@ -29,7 +29,7 @@ I'm a data scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/)
 
 and five from my favorite decade.
 
-* 1950s: [The Bobbettes - Mr. Lee](https://youtu.be/XoT_7lOS-vg)
+* 1950s: [Miles Davis - So What](https://youtu.be/ylXk1LBvIqU)
 * 1960s: [The Velvet Underground - What Goes On](https://youtu.be/AC7xbqmlluo)
 * 1970s: [Steely Dan - Deacon Blues](https://youtu.be/ICK6e9WK2A8)
 * 1980s
