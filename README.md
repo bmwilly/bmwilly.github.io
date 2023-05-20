@@ -2,7 +2,7 @@
 
 ## About
 
-I'm a Data Scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/). I'm a father to the raddest little boy in the world. I currently live in Berlin, Germany. I have many hobbies and I'm bad at all of them.
+I'm a Data Scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/). I'm a father to the raddest little boy in the world. I live in Berlin, Germany. I have many hobbies and I'm bad at all of them.
 
 ## Links
 
