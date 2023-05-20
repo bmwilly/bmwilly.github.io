@@ -21,9 +21,9 @@ I'm a data scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/)
 * [Discogs](https://www.discogs.com/user/bmwilly9)
 * [Spotify](https://open.spotify.com/user/brandonwilliams)
 * [Youtube](https://www.youtube.com/@bmwilly/featured)
+* [Letterboxd](https://letterboxd.com/bmwilly/)
 * [Mastodon](https://mastodon.social/@bmwilly)
 * [Instagram](https://www.instagram.com/bmwilly9/)
-* [Reddit](https://www.reddit.com/user/bmwilly)
 
 ## One good song from each decade since modern pop music began
 
@@ -42,3 +42,7 @@ and five from my favorite decade.
 * 2000s: [Moodymann - Tribute](https://youtu.be/qlLvEMN3hPQ)
 * 2010s: [System Olympia - Falling in Love (feat. P Nut)](https://youtu.be/L70h1HLBHq4)
 * 2020s: [Jex Opolis - Pneumatic](https://youtu.be/COGUrQnZfOs)
+
+## Other
+
+* [Why Socialism?](https://monthlyreview.org/2009/05/01/why-socialism/)
