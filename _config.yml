@@ -1,3 +1,8 @@
 title: Brandon Williams
 description: 🤙
 theme: jekyll-theme-hacker
+plugins:
+  - jekyll-analytics
+jekyll_analytics:
+  GoogleAnalytics:
+    id: G-GLKSLXZ2GC
