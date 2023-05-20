@@ -1,10 +1,10 @@
-# Brandon Williams
-
 ## About
 
 I'm a data scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/). I live in Berlin, Germany. I have many hobbies and I'm [bad at all of them](https://youtu.be/V5Rzh8XjzHI?t=16).
 
 ## Links
+
+* [Email](mailto:bwilliams9@pm.me)
 
 ### Professional
 
@@ -16,7 +16,6 @@ I'm a data scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/)
 
 ### Personal
 
-* [Email](mailto:bwilliams9@pm.me)
 * [Lichess](https://lichess.org/@/bmwilly)
 * [Last.fm](https://www.last.fm/user/bmwilly)
 * [Discogs](https://www.discogs.com/user/bmwilly9)
