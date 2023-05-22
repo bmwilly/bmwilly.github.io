@@ -19,7 +19,10 @@ build: ## build docker image
 	docker build -t bmwilly.github.io .
 
 run: build ## run docker image in interactive mode
-	docker run -it --rm -p 4000:4000 bmwilly.github.io bash
+	docker run -it --rm \
+		-p 4000:4000 \
+		-v $(PWD):/src/ \
+		bmwilly.github.io bash
 
 serve: build ## serve jekyll site
 	docker run -it --rm -p 4000:4000 bmwilly.github.io

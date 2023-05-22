@@ -3,9 +3,12 @@ FROM ruby:3.2.2
 RUN gem update --system 3.4.13
 RUN gem install bundler jekyll
 
-COPY ./docs ./docs
+COPY ./site/Gemfile ./src/site/Gemfile
+RUN cd ./src/site && bundle install
 
-WORKDIR ./docs
-RUN bundle install
+COPY ./ ./src
 
-CMD [ "bundle", "exec", "jekyll", "serve" ]
+WORKDIR ./src/site
+EXPOSE 4000
+
+CMD [ "bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000" ]

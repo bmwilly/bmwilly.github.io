@@ -4,9 +4,7 @@ email: bwilliams9@pm.me
 
 description: 🤙
 
-baseurl: "docs" # the subpath of your site, e.g. /blog
-
-url: "bmwilly.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bmwilly.github.io"
 
 github_username: bmwilly
 
