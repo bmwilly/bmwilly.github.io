@@ -1,0 +1,25 @@
+title: Brandon Williams
+
+email: bwilliams9@pm.me
+
+description: 🤙
+
+baseurl: "docs" # the subpath of your site, e.g. /blog
+
+url: "bmwilly.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+github_username: bmwilly
+
+# Build settings
+theme: jekyll-theme-hacker
+
+plugins:
+  - jekyll-feed
+  - jekyll-analytics
+  - jekyll-target-blank
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    measurement_id: "G-GLKSLXZ2GC"
