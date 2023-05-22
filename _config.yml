@@ -17,8 +17,4 @@ plugins:
   - jekyll-analytics
   - jekyll-target-blank
 
-# Analytics
-jekyll_analytics:
-  GoogleAnalytics:
-    id: G-GLKSLXZ2GC
-    anonymizeIp: false
+google_analytics: G-GLKSLXZ2GC
