@@ -1,9 +1,15 @@
 title: Brandon Williams
+
 description: 🤙
+
 theme: jekyll-theme-hacker
+
 plugins:
   - jekyll-analytics
   - jekyll-target-blank
-jekyll_analytics:
-  GoogleAnalytics:
-    id: G-GLKSLXZ2GC
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    measurement_id: "G-GLKSLXZ2GC"
