@@ -18,7 +18,7 @@ plugins:
   - jekyll-target-blank
 
 # Analytics
-analytics:
-  provider: "google-gtag"
-  google:
-    measurement_id: "G-GLKSLXZ2GC"
+jekyll_analytics:
+  GoogleAnalytics:
+    id: G-GLKSLXZ2GC
+    anonymizeIp: false
