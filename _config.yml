@@ -4,10 +4,9 @@ email: bwilliams9@pm.me
 
 description: 🤙
 
+repository: bmwilly/bmwilly.github.io
 url: "https://bmwilly.github.io"
-
 baseurl: ""
-
 github_username: bmwilly
 
 # Build settings
