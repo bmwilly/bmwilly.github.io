@@ -1,10 +1,18 @@
 title: Brandon Williams
 
+email: bwilliams9@pm.me
+
 description: 🤙
 
+url: "https://bmwilly.github.io"
+
+github_username: bmwilly
+
+# Build settings
 theme: jekyll-theme-hacker
 
 plugins:
+  - jekyll-feed
   - jekyll-analytics
   - jekyll-target-blank
 
