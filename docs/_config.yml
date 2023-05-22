@@ -6,6 +6,8 @@ description: 🤙
 
 url: "https://bmwilly.github.io"
 
+baseurl: ""
+
 github_username: bmwilly
 
 # Build settings
