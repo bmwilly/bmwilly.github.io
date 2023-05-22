@@ -16,7 +16,6 @@ I have many hobbies (dance music, film, chess, skiing, bouldering, ping pong) an
 * [CV](https://gitlab.com/bmwilly/resume/-/blob/master/BrandonWilliamsCV.pdf) and [Resume](https://gitlab.com/bmwilly/resume/-/blob/master/BrandonWilliamsResume.pdf)
 * [GitHub](https://github.com/bmwilly)
 * [GitLab](https://gitlab.com/bmwilly)
-* [Google Scholar](https://scholar.google.com/citations?user=sE1Y-VAAAAAJ&hl=en)
 
 ### Personal
 
