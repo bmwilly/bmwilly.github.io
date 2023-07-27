@@ -6,10 +6,6 @@ My professional interests include machine learning (especially of the Bayesian p
 
 I have many interests (dance music, film) and hobbies (chess, skiing, bouldering, ping pong) and I'm [bad at all of them](https://youtu.be/V5Rzh8XjzHI?t=16).
 
-I have a lovely wife and a beautiful son.
-
-![Family](./docs/assets/family.jpg)
-
 ## Links
 
 ### Contact
