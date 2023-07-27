@@ -11,7 +11,7 @@ I have many interests (dance music, film) and hobbies (chess, skiing, bouldering
 ### Contact
 
 * [Email](mailto:bwilliams9@pm.me)
-* [Make a meeting](https://cal.com/bwilliams/meeting)
+<!-- * [Make a meeting](https://cal.com/bwilliams/meeting) -->
 
 ### Professional
 
