@@ -16,7 +16,7 @@ I have many interests (dance music, film) and hobbies (chess, skiing, bouldering
 ### Professional
 
 * [LinkedIn](https://www.linkedin.com/in/brandonwilliams9/)
-* [CV](https://gitlab.com/bmwilly/resume/-/blob/master/BrandonWilliamsCV.pdf) and [Resume](https://gitlab.com/bmwilly/resume/-/blob/master/BrandonWilliamsResume.pdf)
+* [CV](https://gitlab.com/bmwilly/resume/-/blob/master/cv/BrandonWilliamsCV.pdf) and [Resume](https://gitlab.com/bmwilly/resume/-/blob/master/resume/BrandonWilliamsResume.pdf)
 * [GitHub](https://github.com/bmwilly)
 * [GitLab](https://gitlab.com/bmwilly)
 
