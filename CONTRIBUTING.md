@@ -17,3 +17,9 @@ build                build docker image
 run                  run docker image in interactive mode
 serve                serve jekyll site
 ```
+
+## Update Ruby dependencies
+
+```shell
+bundle update
+```

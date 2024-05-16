@@ -1,4 +1,4 @@
-.PHONY: help build tag push
+.PHONY: help build
 .DEFAULT_GOAL := help
 
 define PRINT_HELP_PYSCRIPT
