@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/bmwilly
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bmwilly.github.io
+  * I am bmwilly (https://keybase.io/bmwilly) on keybase.
+  * I have a public key ASD6sAwR9tF_oMZGXPUVEZ4fIGzt8h3WKB8IT1woPvJfvQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fab00c11f6d17fa0c6465cf515119e1f206cedf21dd6281f084f5c283ef25fbd0a",
+      "host": "keybase.io",
+      "kid": "0120fab00c11f6d17fa0c6465cf515119e1f206cedf21dd6281f084f5c283ef25fbd0a",
+      "uid": "4351c869aac35f1300d64ce959e9c819",
+      "username": "bmwilly"
+    },
+    "merkle_root": {
+      "ctime": 1723637686,
+      "hash": "89361623565cc1eefb66afaf426e77416eb219e34a97cb1396d5e7a3b2cba6fdb35ed4e2b847da1c56c800f719f77c38ba374b83b24ba754f49cf876c90c56df",
+      "hash_meta": "92ea1d342244db79b135b017567037fa685823c0861b4021297330882003eeba",
+      "seqno": 26010384
+    },
+    "service": {
+      "entropy": "a2LOYkKMzDzIFU5hzExBKKgB",
+      "hostname": "bmwilly.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.8"
+  },
+  "ctime": 1723637762,
+  "expire_in": 504576000,
+  "prev": "ff1e1695827b4fa57dca1c8c9c1683803abce763d3930576391a62b856ea0653",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+rAMEfbRf6DGRlz1FRGeHyBs7fId1igfCE9cKD7yX70Kp3BheWxvYWTESpcCEcQg/x4WlYJ7T6V9yhyMnBaDgDq852PTkwV2ORpiuFbqBlPEIFpMcnCO+nSWPa3fUkkjxFwmzykvxCmNpKJ9kIFkASnKAgHCo3NpZ8RAM8Gqg6RHlz86HGajXKsOOe2hytbbSX1IgJOVUw8kq/CBLWjJqM7+ub9YrS8ay4Sw7gKXIsrAgjRBfOCo7FhlCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOLB4HO4QEAnXq0SR0W570CNAFuj+XP7ueyJZYLxgqRZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bmwilly
+
+==================================================================
