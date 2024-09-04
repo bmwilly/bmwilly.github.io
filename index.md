@@ -10,7 +10,7 @@ I have many interests (dance music, film) and hobbies (chess, skiing, bouldering
 
 ### Contact
 
-* [Email](mailto:bwilliams9@pm.me)
+* [Email](mailto:brandon.mark.williams@pm.me)
 <!-- * [Make a meeting](https://cal.com/bwilliams/meeting) -->
 
 ### Professional
@@ -52,7 +52,7 @@ and five from my favorite decade.
 
 ## AI skepticism
 
-I am a luddite and an "AI" skeptic and believe that the field is rife with overhype and fraudsters. There are good uses for AI, but 99% of the time it's [used for evil](https://en.wikipedia.org/wiki/Weapons_of_Math_Destruction).
+I am a luddite and an "AI" skeptic and believe that the field is rife with overhype and fraudsters. There are good uses for AI, but 99% of the time it's [used](https://www.972mag.com/lavender-ai-israeli-army-gaza/) for [evil](https://en.wikipedia.org/wiki/Weapons_of_Math_Destruction).
 
 * [AI Snake Oil](https://aisnakeoil.substack.com/)
 * [ChatGPT: The world’s largest bullshit machine](https://www.transformingsociety.co.uk/2023/02/10/chatgpt-the-worlds-largest-bullshit-machine/)
@@ -61,3 +61,4 @@ I am a luddite and an "AI" skeptic and believe that the field is rife with overh
 ## Other
 
 * [Why Socialism?](https://monthlyreview.org/2009/05/01/why-socialism/)
+* [There Are Only Two Issues](https://www.gawkerarchives.com/there-are-only-two-issues-1744172647)
