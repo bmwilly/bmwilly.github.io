@@ -29,3 +29,6 @@ serve: build ## serve jekyll site
 		-p 4000:4000 \
 		-v $(PWD):/src/ \
 		bmwilly.github.io
+
+update: ## update Ruby dependencies locally (requires bundler)
+	bundle update
