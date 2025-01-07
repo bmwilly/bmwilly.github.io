@@ -28,8 +28,10 @@ I have many interests (dance music, film) and hobbies (chess, skiing, bouldering
 * [Spotify](https://open.spotify.com/user/brandonwilliams)
 * [Youtube](https://www.youtube.com/@bmwilly/featured)
 * [Letterboxd](https://letterboxd.com/bmwilly/)
-* [Mastodon](https://mastodon.social/@bmwilly)
 * [Substack](https://substack.com/profile/32976501-bmwilly)
+* [Mastodon](https://mastodon.social/@bmwilly)
+* [Bluesky](https://bsky.app/profile/bmwilly.bsky.social)
+* [Threads](https://www.threads.net/@bmwilly9)
 * [Instagram](https://www.instagram.com/bmwilly9/)
 
 ## One good song from each decade since modern pop music began
