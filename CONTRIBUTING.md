@@ -10,20 +10,23 @@ Install docker:
 brew install --cask docker
 ```
 
-Install Python 3. We recommend using `pyenv` to manage Python versions:
+Install Python 3. We recommend using [uv](https://docs.astral.sh/uv/#installation) to manage
+Python and Python virtual environments:
 
 ```shell
-brew install pyenv
-pyenv install 3.12
-pyenv local 3.12
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv python install 3.12 --default --preview
+uv venv .venv/
+source .venv/bin/activate
+uv sync
 ```
 
 Install Ruby. We recommend using `rbenv` to manage Ruby versions:
 
 ```shell
 brew install rbenv
-rbenv install 3.3.5
-rbenv local 3.3.5
+rbenv install 3.4.2
+rbenv local 3.4.2
 ```
 
 Install Ruby dependencies:

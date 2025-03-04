@@ -1,0 +1,10 @@
+[project]
+name = "bmwilly-github-io"
+version = "0.1.0"
+description = "Personal website of bmwilly"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["loguru>=0.7.3"]
+
+[dependency-groups]
+dev = ["ipykernel>=6.29.5", "ruff>=0.9.9"]
