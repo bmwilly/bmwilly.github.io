@@ -4,14 +4,14 @@ I'm a data scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/)
 
 My professional interests include (probabilistic) machine learning, open/reproducible science, ML fairness, and research engineering. I'm primarily interested in building data products that are useful for people and for mitigating the effects of climate change.
 
-I have many interests (dance music, film) and hobbies (chess, skiing, bouldering, ping pong) and I'm [bad at all of them](https://youtu.be/V5Rzh8XjzHI?t=16).
+I have many personal interests (dance music, film, video games) and hobbies (chess, skiing, bouldering, ping pong) and I'm [bad at all of them](https://youtu.be/V5Rzh8XjzHI?t=16).
 
 ## Links
 
 ### Contact
 
 * [Email](mailto:brandon.mark.williams@pm.me)
-<!-- * [Make a meeting](https://cal.com/bwilliams/meeting) -->
+* [Schedule a meeting](https://cal.com/bwilliams/meeting)
 
 ### Professional
 
@@ -34,7 +34,9 @@ I have many interests (dance music, film) and hobbies (chess, skiing, bouldering
 * [Threads](https://www.threads.net/@bmwilly9)
 * [Instagram](https://www.instagram.com/bmwilly9/)
 
-## One good song from each decade since modern pop music began
+## Art that I like
+
+### One good song from each decade since modern pop music began
 
 and five from my favorite decade.
 
@@ -52,7 +54,23 @@ and five from my favorite decade.
 * 2010s: [System Olympia - Falling in Love (feat. P Nut)](https://youtu.be/L70h1HLBHq4)
 * 2020s: [Jex Opolis - Pneumatic](https://youtu.be/COGUrQnZfOs)
 
-## Other
+### Five of my favorite movies
+
+* [First Reformed](https://en.wikipedia.org/wiki/First_Reformed)
+* [Burn After Reading](https://en.wikipedia.org/wiki/Burn_After_Reading)
+* [The Big Lebowski](https://en.wikipedia.org/wiki/The_Big_Lebowski)
+* [The Apartment](https://en.wikipedia.org/wiki/The_Apartment)
+* [There Will Be Blood](https://en.wikipedia.org/wiki/There_Will_Be_Blood)
+
+### Five of my favorite video games
+
+* [Super Smash Bros. Brawl](https://en.wikipedia.org/wiki/Super_Smash_Bros._Brawl)
+* [Splinter Cell Chaos Theory](https://en.wikipedia.org/wiki/Splinter_Cell_Chaos_Theory)
+* [Tony Hawk's Underground](https://en.wikipedia.org/wiki/Tony_Hawk%27s_Underground)
+* [Portal 2](https://en.wikipedia.org/wiki/Portal_2)
+* [Hitman: World of Assassination](https://en.wikipedia.org/wiki/Hitman_(2016_video_game))
+
+## Politics
 
 * [Why Socialism?](https://monthlyreview.org/2009/05/01/why-socialism/)
 * [There Are Only Two Issues](https://www.gawkerarchives.com/there-are-only-two-issues-1744172647)
