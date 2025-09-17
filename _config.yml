@@ -14,7 +14,4 @@ theme: jekyll-theme-hacker
 
 plugins:
   - jekyll-feed
-  - jekyll-analytics
   - jekyll-target-blank
-
-google_analytics: G-GLKSLXZ2GC
