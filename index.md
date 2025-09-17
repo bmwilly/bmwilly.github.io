@@ -34,6 +34,10 @@ I have many personal interests (dance music, film, video games) and hobbies (che
 * [Threads](https://www.threads.net/@bmwilly9)
 * [Instagram](https://www.instagram.com/bmwilly9/)
 
+## Projects
+
+* [Stokes-Brinkman solver in Julia](https://bmwilly.github.io/brinkman-stokes/)
+
 ## Art that I like
 
 ### One good song from each decade since modern pop music began
