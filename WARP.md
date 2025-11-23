@@ -4,7 +4,7 @@ This file provides guidance to WARP (warp.dev) when working with code in this re
 
 ## Project Overview
 
-This is Brandon Williams' personal website (bmwilly.github.io) built with Jekyll and hosted on GitHub Pages. The site uses the jekyll-theme-hacker theme and includes Plausible Analytics tracking. The codebase has a hybrid Ruby/Python setup with Docker for local development.
+This is Brandon Williams' personal website (bmwilly.github.io) built with Jekyll and hosted on GitHub Pages. The site uses the jekyll-theme-hacker theme and includes PostHog Analytics tracking. The codebase has a hybrid Ruby/Python setup with Docker for local development.
 
 ## Development Commands
 
@@ -55,7 +55,7 @@ bundle exec jekyll build     # Build the site
 - `_config.yml`: Site configuration with theme, plugins, and metadata
 - `index.md`: Main homepage content with personal information and links
 - `_includes/`: Reusable template components (analytics, head)
-  - `head-custom.html`: Plausible Analytics tracking code
+  - `head-custom.html`: PostHog Analytics tracking code
 
 ### Hybrid Tooling Setup
 
