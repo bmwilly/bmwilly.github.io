@@ -32,7 +32,7 @@ rbenv local 3.4.2
 Install Ruby dependencies:
 
 ```shell
-gem install bundler
+sudo gem install bundler
 bundle install
 ```
 
