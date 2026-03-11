@@ -1,8 +1,8 @@
 ## About
 
-I'm a data scientist at [Equilibrium Energy](https://www.equilibriumenergy.com/) living in Berlin, Germany.
+I'm a data scientist at [Renewcast](https://renewcast.com/) living in Berlin, Germany.
 
-My professional interests include (probabilistic) machine learning, open/reproducible science, ML fairness, and research engineering. I'm primarily interested in building data products that are useful for people and for mitigating the effects of climate change.
+My professional interests include (probabilistic) machine learning, open/reproducible science, and research engineering. I'm primarily interested in building data products that are useful for people and mitigate the effects of climate change.
 
 I have many personal interests (dance music, film, video games) and hobbies (chess, skiing, bouldering, ping pong) and I'm [bad at all of them](https://youtu.be/V5Rzh8XjzHI?t=16).
 
