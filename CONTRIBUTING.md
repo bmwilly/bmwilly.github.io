@@ -38,16 +38,18 @@ bundle install
 
 ## CLI
 
-We use the `Makefile` as a poor man's CLI.
+We use [Task](https://taskfile.dev) as the project CLI.
 
-The commands can be seen with `make help`:
+List commands with `task` or `task --list`:
 
 ```shell
-$ make
-help                 print make target descriptions
-build                build docker image
-run                  run docker image in interactive mode
-serve                serve jekyll site
+$ task
+task: Available tasks for this project:
+* default:       list all tasks
+* build:         build docker image
+* run:           run docker image in interactive mode
+* serve:         serve jekyll site
+* update:        update Ruby dependencies locally (requires bundler)
 ```
 
 ## Update Ruby dependencies
