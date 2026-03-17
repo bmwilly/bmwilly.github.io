@@ -1,0 +1,35 @@
+# https://taskfile.dev
+version: "3"
+
+vars:
+  IMAGE: bmwilly.github.io
+
+tasks:
+  default:
+    desc: list all tasks
+    cmds:
+      - task --list
+
+  build:
+    desc: build docker image
+    cmds:
+      - docker build -t {{.IMAGE}} .
+
+  run:
+    desc: run docker image in interactive mode
+    deps:
+      - build
+    cmds:
+      - docker run -it --rm -p 4000:4000 -v {{.ROOT_DIR}}:/src/ {{.IMAGE}} bash
+
+  serve:
+    desc: serve jekyll site
+    deps:
+      - build
+    cmds:
+      - docker run -it --rm -p 4000:4000 -v {{.ROOT_DIR}}:/src/ {{.IMAGE}}
+
+  update:
+    desc: update Ruby dependencies locally (requires bundler)
+    cmds:
+      - bundle update
