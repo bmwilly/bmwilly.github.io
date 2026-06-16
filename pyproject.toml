@@ -7,8 +7,12 @@ requires-python = ">=3.12"
 dependencies = [
     "loguru>=0.7.3",
     "pygments>=2.20",
-    "tornado>=6.5.5",
+    "tornado>=6.5.7",
 ]
 
 [dependency-groups]
-dev = ["ipykernel>=6.29.5", "ruff>=0.9.9"]
+dev = [
+    "ipykernel>=6.29.5",
+    "jupyter-core>=5.8.1",
+    "ruff>=0.9.9",
+]
