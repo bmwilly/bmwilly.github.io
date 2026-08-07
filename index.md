@@ -2,7 +2,7 @@
 
 <img src="/docs/assets/bwilliams.jpg" alt="Brandon Williams" style="float: right; margin: 0 0 1em 1.5em; width: 200px; height: auto; border-radius: 8px; border: 1px solid #555;" />
 
-I'm a data scientist at [Renewcast](https://renewcast.com/) living in Berlin, Germany.
+I'm a data scientist at [Loadwise](https://loadwise.ai/) living in Berlin, Germany.
 
 My professional interests include (probabilistic) machine learning, open/reproducible science, and research engineering. I'm primarily interested in building data products that are useful for people and mitigate the effects of climate change.
 
