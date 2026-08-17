@@ -27,7 +27,8 @@ I have many personal interests (dance music, film, video games) and hobbies (che
 
 ### Personal
 
-* [Lichess](https://lichess.org/@/bmwilly)
+{% include lichess-ratings.html %}
+
 * [Last.fm](https://www.last.fm/user/bmwilly)
 * [Discogs](https://www.discogs.com/user/bmwilly9)
 * [Spotify](https://open.spotify.com/user/brandonwilliams)

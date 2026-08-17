@@ -3,6 +3,8 @@ version: "3"
 
 vars:
   IMAGE: bmwilly.github.io
+  # Host port (container still uses 4000).
+  HOST_PORT: 4000
 
 tasks:
   default:
@@ -20,14 +22,14 @@ tasks:
     deps:
       - build
     cmds:
-      - docker run -it --rm -p 4000:4000 -v {{.ROOT_DIR}}:/src/ {{.IMAGE}} bash
+      - docker run -it --rm -p {{.HOST_PORT}}:4000 -v {{.ROOT_DIR}}:/src/ {{.IMAGE}} bash
 
   serve:
-    desc: serve jekyll site
+    desc: serve jekyll site at http://localhost:{{.HOST_PORT}}
     deps:
       - build
     cmds:
-      - docker run -it --rm -p 4000:4000 -v {{.ROOT_DIR}}:/src/ {{.IMAGE}}
+      - docker run -it --rm -p {{.HOST_PORT}}:4000 -v {{.ROOT_DIR}}:/src/ {{.IMAGE}}
 
   update:
     desc: update Ruby dependencies locally (requires bundler)

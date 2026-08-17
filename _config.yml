@@ -8,6 +8,7 @@ repository: bmwilly/bmwilly.github.io
 url: "https://bmwilly.github.io"
 baseurl: ""
 github_username: bmwilly
+lichess_username: bmwilly
 
 # Build settings
 theme: jekyll-theme-hacker
