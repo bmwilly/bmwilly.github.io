@@ -8,3 +8,6 @@
 _site/
 cache/
 vendor
+
+# Global ~/.gitignore excludes *.html (notebook/report output). Jekyll includes must be tracked.
+!_includes/*.html
