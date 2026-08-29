@@ -3,12 +3,14 @@
   class="lichess-ratings"
   data-username="{{ site.lichess_username }}"
   data-days="90"
+  data-history-url="{{ '/assets/data/lichess-rating-history.json' | relative_url }}"
   aria-live="polite"
 >
   <!--
-    Live Blitz/Rapid sparklines from the public Lichess rating-history API
-    (same payload as life.chess._lichess.get_rating_history_df). Fetched in
-    the browser so this site stays decoupled from that Python package.
+    Blitz/Rapid sparklines from assets/data/lichess-rating-history.json
+    (refreshed by .github/workflows/lichess-ratings-snapshot.yml with a Lichess
+    token). Falls back to rebuilding daily points from rated games if the
+    snapshot is missing.
   -->
   <div class="lichess-ratings__top">
     <div class="lichess-ratings__heading">
@@ -25,6 +27,7 @@
       <span class="lichess-ratings__mood-label"></span>
     </div>
   </div>
+  <p class="lichess-ratings__note">A good proxy of my mental health.</p>
   <p class="lichess-ratings__status">Loading ratings from Lichess…</p>
   <div class="lichess-ratings__series" hidden></div>
   <noscript>Enable JavaScript to load live Lichess ratings, or visit <a href="https://lichess.org/@/{{ site.lichess_username }}">lichess.org/@/{{ site.lichess_username }}</a>.</noscript>

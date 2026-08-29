@@ -31,9 +31,14 @@
 
 .lichess-ratings__window,
 .lichess-ratings__mood-label,
-.lichess-ratings__empty {
+.lichess-ratings__empty,
+.lichess-ratings__note {
   color: var(--lichess-flat);
   font-size: 0.8em;
+}
+
+.lichess-ratings__note {
+  margin: 0 0 0.75em;
 }
 
 .lichess-ratings__mood {

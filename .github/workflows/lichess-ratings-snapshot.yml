@@ -1,0 +1,99 @@
+# Authenticated Lichess rating-history snapshot for the homepage widget.
+# Lichess only computes rating charts for authenticated requests; anonymous
+# calls get []. This workflow refreshes assets/data/lichess-rating-history.json
+# once a day so the static site can serve canonical history without a public token.
+name: Snapshot Lichess rating history
+
+on:
+  schedule:
+    # Daily 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lichess-ratings-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Fetch rating history
+        env:
+          LICHESS_TOKEN: ${{ secrets.LICHESS_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "${LICHESS_TOKEN:-}" ]; then
+            echo "LICHESS_TOKEN secret is not set" >&2
+            exit 1
+          fi
+
+          username="$(grep -E '^lichess_username:' _config.yml | awk '{print $2}' | tr -d '"')"
+          if [ -z "$username" ]; then
+            echo "lichess_username missing from _config.yml" >&2
+            exit 1
+          fi
+
+          mkdir -p assets/data
+          out="assets/data/lichess-rating-history.json"
+          url="https://lichess.org/api/user/${username}/rating-history"
+
+          http_code="$(curl -sS -o "$out" -w "%{http_code}" \
+            -H "Accept: application/json" \
+            -H "Authorization: Bearer ${LICHESS_TOKEN}" \
+            -A "bmwilly.github.io-lichess-snapshot/1.0" \
+            "$url")"
+
+          if [ "$http_code" != "200" ]; then
+            echo "Lichess HTTP ${http_code} for ${url}" >&2
+            head -c 500 "$out" >&2 || true
+            exit 1
+          fi
+
+          python3 - "$out" <<'PY'
+          import json
+          import sys
+
+          path = sys.argv[1]
+          with open(path, encoding="utf-8") as f:
+              data = json.load(f)
+
+          if not isinstance(data, list):
+              raise SystemExit(f"rating-history must be a JSON array, got {type(data).__name__}")
+          if not data:
+              raise SystemExit("rating-history is empty []; token may be invalid or compute failed")
+
+          needed = ("Blitz", "Rapid")
+          if not any(
+              isinstance(entry, dict)
+              and entry.get("name") in needed
+              and isinstance(entry.get("points"), list)
+              and len(entry["points"]) > 0
+              for entry in data
+          ):
+              names = [e.get("name") for e in data if isinstance(e, dict)]
+              raise SystemExit(f"no Blitz or Rapid points in snapshot; names={names}")
+
+          with open(path, "w", encoding="utf-8") as f:
+              json.dump(data, f, separators=(",", ":"))
+              f.write("\n")
+          PY
+
+      - name: Commit snapshot if changed
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data/lichess-rating-history.json
+          if git diff --staged --quiet; then
+            echo "Snapshot unchanged"
+            exit 0
+          fi
+          git commit -m "chore: refresh Lichess rating-history snapshot"
+          git push

@@ -17,16 +17,24 @@
   async function load(root) {
     const status = root.querySelector(".lichess-ratings__status");
     const username = root.dataset.username;
+    const historyUrl = root.dataset.historyUrl;
     const days = Number(root.dataset.days);
     if (!username) {
       throw new Error("lichess-ratings: data-username is missing");
+    }
+    if (!historyUrl) {
+      throw new Error("lichess-ratings: data-history-url is missing");
     }
     if (!Number.isFinite(days) || days <= 0) {
       throw new Error(`lichess-ratings: invalid data-days ${root.dataset.days}`);
     }
 
     try {
-      const history = await fetchRatingHistory(username);
+      let history = await fetchSnapshotHistory(historyUrl);
+      // Snapshot is filled by the authenticated GHA; if missing, rebuild from games.
+      if (!hasPerfPoints(history, PERFS)) {
+        history = await fetchRatingHistoryFromGames(username, days);
+      }
       const now = new Date();
       const series = PERFS.map((name) => {
         const entry = history.find((item) => item.name === name);
@@ -46,17 +54,107 @@
     }
   }
 
-  async function fetchRatingHistory(username) {
-    const url = `https://lichess.org/api/user/${encodeURIComponent(username)}/rating-history`;
+  function hasPerfPoints(history, perfs) {
+    return perfs.some((name) => {
+      const entry = history.find((item) => item.name === name);
+      return Array.isArray(entry?.points) && entry.points.length > 0;
+    });
+  }
+
+  async function fetchSnapshotHistory(url) {
     const response = await fetch(url, { headers: { Accept: "application/json" } });
+    if (response.status === 404) {
+      return [];
+    }
     if (!response.ok) {
-      throw new Error(`lichess-ratings: Lichess HTTP ${response.status} for ${url}`);
+      throw new Error(`lichess-ratings: snapshot HTTP ${response.status} for ${url}`);
     }
     const payload = await response.json();
     if (!Array.isArray(payload)) {
-      throw new Error("lichess-ratings: rating-history response was not an array");
+      throw new Error("lichess-ratings: snapshot was not an array");
     }
     return payload;
+  }
+
+  async function fetchRatingHistoryFromGames(username, days) {
+    // Pull a little before the window so buildSeries can establish lastBefore.
+    const since = Date.now() - (days + 14) * MS_PER_DAY;
+    const perfType = PERFS.map((name) => name.toLowerCase()).join(",");
+    const url =
+      `https://lichess.org/api/games/user/${encodeURIComponent(username)}` +
+      `?since=${since}&rated=true&perfType=${perfType}&moves=false&sort=dateAsc`;
+    const response = await fetch(url, { headers: { Accept: "application/x-ndjson" } });
+    if (!response.ok) {
+      throw new Error(`lichess-ratings: Lichess HTTP ${response.status} for ${url}`);
+    }
+    const body = await response.text();
+    const games = body
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .map((line) => {
+        try {
+          return JSON.parse(line);
+        } catch {
+          throw new Error(`lichess-ratings: bad games ndjson ${line.slice(0, 120)}`);
+        }
+      });
+    return historyFromGames(games, username);
+  }
+
+  function historyFromGames(games, username) {
+    const uid = username.toLowerCase();
+    const byPerf = new Map(PERFS.map((name) => [name, new Map()]));
+
+    for (const game of games) {
+      const perfName = PERFS.find((name) => name.toLowerCase() === game.perf);
+      if (!perfName) {
+        continue;
+      }
+      const player = playerForUser(game, uid);
+      if (!player) {
+        continue;
+      }
+      const before = player.rating;
+      const diff = player.ratingDiff;
+      if (!Number.isFinite(before) || !Number.isFinite(diff)) {
+        throw new Error(
+          `lichess-ratings: bad game rating ${JSON.stringify({ id: game.id, before, diff })}`,
+        );
+      }
+      const at = game.lastMoveAt ?? game.createdAt;
+      if (!Number.isFinite(at)) {
+        throw new Error(`lichess-ratings: game ${game.id} missing timestamp`);
+      }
+      const date = new Date(at);
+      const year = date.getUTCFullYear();
+      const month = date.getUTCMonth();
+      const day = date.getUTCDate();
+      const key = `${year}-${month}-${day}`;
+      // One point per UTC day, matching rating-history (last rating that day).
+      byPerf.get(perfName).set(key, [year, month, day, before + diff]);
+    }
+
+    return PERFS.map((name) => ({
+      name,
+      points: [...byPerf.get(name).values()].sort((a, b) => {
+        if (a[0] !== b[0]) return a[0] - b[0];
+        if (a[1] !== b[1]) return a[1] - b[1];
+        return a[2] - b[2];
+      }),
+    }));
+  }
+
+  function playerForUser(game, uid) {
+    for (const color of ["white", "black"]) {
+      const player = game.players?.[color];
+      const id = player?.user?.id;
+      const name = player?.user?.name;
+      if (id === uid || (typeof name === "string" && name.toLowerCase() === uid)) {
+        return player;
+      }
+    }
+    return null;
   }
 
   function parsePoint(point) {
