@@ -1,7 +1,7 @@
 # Authenticated Lichess rating-history snapshot for the homepage widget.
 # Lichess only computes rating charts for authenticated requests; anonymous
-# calls get []. This workflow refreshes assets/data/lichess-rating-history.json
-# once a day so the static site can serve canonical history without a public token.
+# calls get []. This workflow refreshes _data/lichess-rating-history.json
+# once a day so Jekyll can inline canonical Blitz/Rapid history at build time.
 name: Snapshot Lichess rating history
 
 on:
@@ -40,8 +40,8 @@ jobs:
             exit 1
           fi
 
-          mkdir -p assets/data
-          out="assets/data/lichess-rating-history.json"
+          mkdir -p _data
+          out="_data/lichess-rating-history.json"
           url="https://lichess.org/api/user/${username}/rating-history"
 
           http_code="$(curl -sS -o "$out" -w "%{http_code}" \
@@ -70,18 +70,20 @@ jobs:
               raise SystemExit("rating-history is empty []; token may be invalid or compute failed")
 
           needed = ("Blitz", "Rapid")
-          if not any(
-              isinstance(entry, dict)
-              and entry.get("name") in needed
-              and isinstance(entry.get("points"), list)
-              and len(entry["points"]) > 0
+          slim = [
+              entry
               for entry in data
+              if isinstance(entry, dict) and entry.get("name") in needed
+          ]
+          if not any(
+              isinstance(entry.get("points"), list) and len(entry["points"]) > 0
+              for entry in slim
           ):
               names = [e.get("name") for e in data if isinstance(e, dict)]
               raise SystemExit(f"no Blitz or Rapid points in snapshot; names={names}")
 
           with open(path, "w", encoding="utf-8") as f:
-              json.dump(data, f, separators=(",", ":"))
+              json.dump(slim, f, separators=(",", ":"))
               f.write("\n")
           PY
 
@@ -90,7 +92,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/data/lichess-rating-history.json
+          git add _data/lichess-rating-history.json
           if git diff --staged --quiet; then
             echo "Snapshot unchanged"
             exit 0

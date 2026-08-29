@@ -3,15 +3,14 @@
   class="lichess-ratings"
   data-username="{{ site.lichess_username }}"
   data-days="90"
-  data-history-url="{{ '/assets/data/lichess-rating-history.json' | relative_url }}"
   aria-live="polite"
 >
   <!--
-    Blitz/Rapid sparklines from assets/data/lichess-rating-history.json
-    (refreshed by .github/workflows/lichess-ratings-snapshot.yml with a Lichess
-    token). Falls back to rebuilding daily points from rated games if the
-    snapshot is missing.
+    Blitz/Rapid sparklines from _data/lichess-rating-history.json (refreshed by
+    .github/workflows/lichess-ratings-snapshot.yml with a Lichess token).
+    Jekyll inlines the snapshot; the browser never calls Lichess.
   -->
+  <script type="application/json" id="lichess-rating-history-data">{{ site.data["lichess-rating-history"] | jsonify }}</script>
   <div class="lichess-ratings__top">
     <div class="lichess-ratings__heading">
       <a href="https://lichess.org/@/{{ site.lichess_username }}">Lichess</a>
@@ -28,8 +27,8 @@
     </div>
   </div>
   <p class="lichess-ratings__note">A good proxy of my mental health.</p>
-  <p class="lichess-ratings__status">Loading ratings from Lichess…</p>
+  <p class="lichess-ratings__status">Loading ratings…</p>
   <div class="lichess-ratings__series" hidden></div>
-  <noscript>Enable JavaScript to load live Lichess ratings, or visit <a href="https://lichess.org/@/{{ site.lichess_username }}">lichess.org/@/{{ site.lichess_username }}</a>.</noscript>
+  <noscript>Enable JavaScript to view Lichess ratings, or visit <a href="https://lichess.org/@/{{ site.lichess_username }}">lichess.org/@/{{ site.lichess_username }}</a>.</noscript>
 </aside>
 <script src="{{ '/assets/js/lichess-ratings.js' | relative_url }}" defer></script>

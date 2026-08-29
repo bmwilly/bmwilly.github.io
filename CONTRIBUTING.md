@@ -54,9 +54,9 @@ task: Available tasks for this project:
 
 ## Lichess ratings snapshot
 
-The homepage Blitz/Rapid charts read [`assets/data/lichess-rating-history.json`](assets/data/lichess-rating-history.json), refreshed by [`.github/workflows/lichess-ratings-snapshot.yml`](.github/workflows/lichess-ratings-snapshot.yml). Lichess only computes rating history for authenticated API calls, so the workflow uses a personal access token.
+The homepage Blitz/Rapid charts read [`_data/lichess-rating-history.json`](_data/lichess-rating-history.json), refreshed by [`.github/workflows/lichess-ratings-snapshot.yml`](.github/workflows/lichess-ratings-snapshot.yml). Jekyll inlines that file at build time; the browser never calls Lichess. Lichess only computes rating history for authenticated API calls, so the workflow uses a personal access token.
 
-`LICHESS_TOKEN` is a **GitHub Actions repo secret only**. It is not a local env var and is **not** required for `task serve`: Jekyll serves the committed snapshot (or the browser falls back to the public games API if the file is missing).
+`LICHESS_TOKEN` is a **GitHub Actions repo secret only**. It is not a local env var and is **not** required for `task serve`: Jekyll needs the committed `_data` snapshot. If that file is missing, the widget fails immediately instead of querying Lichess.
 
 1. Create a token at [lichess.org/account/oauth/token](https://lichess.org/account/oauth/token) (no special scopes required).
 2. Add it as the repo secret `LICHESS_TOKEN` (Settings → Secrets and variables → Actions).
