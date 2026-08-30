@@ -1,0 +1,104 @@
+.lastfm-charts {
+  --lastfm-up: #b5e853;
+  --lastfm-flat: #888888;
+  --lastfm-rule: #434343;
+  --lastfm-name: #eaeaea;
+
+  clear: both;
+  margin: 1.75em 0 2em;
+  padding: 0.9em 0 0.35em;
+  border-top: 1px solid var(--lastfm-rule);
+  border-bottom: 1px solid var(--lastfm-rule);
+}
+
+.lastfm-charts__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  margin-bottom: 0.75em;
+}
+
+.lastfm-charts__heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75em;
+}
+
+.lastfm-charts__heading a {
+  font-size: 1.05em;
+}
+
+.lastfm-charts__window,
+.lastfm-charts__empty,
+.lastfm-charts__artist,
+.lastfm-charts__error {
+  color: var(--lastfm-flat);
+  font-size: 0.8em;
+}
+
+.lastfm-charts__error {
+  margin: 0 0 0.75em;
+}
+
+.lastfm-charts__columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.25em 1.5em;
+}
+
+.lastfm-charts__column-title {
+  margin: 0 0 0.45em;
+  color: var(--lastfm-up);
+  font-size: 0.95em;
+  font-weight: 700;
+}
+
+.lastfm-charts__empty {
+  margin: 0 0 0.75em;
+}
+
+.lastfm-charts__list {
+  list-style: none;
+  margin: 0 0 0.5em;
+  padding: 0;
+}
+
+.lastfm-charts__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75em;
+  margin: 0 0 0.55em;
+}
+
+.lastfm-charts__copy {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+
+a.lastfm-charts__name {
+  color: var(--lastfm-name);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+a.lastfm-charts__name:hover,
+a.lastfm-charts__name:focus {
+  text-decoration: underline;
+}
+
+.lastfm-charts__playcount {
+  color: var(--lastfm-up);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85em;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .lastfm-charts__columns {
+    grid-template-columns: 1fr;
+  }
+}

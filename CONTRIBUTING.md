@@ -62,6 +62,16 @@ The homepage Blitz/Rapid charts read [`_data/lichess-rating-history.json`](_data
 2. Add it as the repo secret `LICHESS_TOKEN` (Settings → Secrets and variables → Actions).
 3. Run **Snapshot Lichess rating history** once from the Actions tab (`workflow_dispatch`), then daily cron keeps it fresh.
 
+## Last.fm top-charts snapshot
+
+The homepage artists/albums/tracks lists read [`_data/lastfm_top.json`](_data/lastfm_top.json), refreshed by [`.github/workflows/lastfm-top-snapshot.yml`](.github/workflows/lastfm-top-snapshot.yml) via [`scripts/fetch_lastfm_top.py`](scripts/fetch_lastfm_top.py). Jekyll inlines that file at build time; the browser never calls Last.fm. Chart methods need an API key but not a user session or shared secret.
+
+`LASTFM_API_KEY` is a **GitHub Actions repo secret**. For a local refresh, export it and run `python3 scripts/fetch_lastfm_top.py`. It is **not** required for `task serve`: Jekyll needs the committed `_data` snapshot. If that file is missing, the widget shows an error instead of querying Last.fm.
+
+1. Create an API account at [last.fm/api/account/create](https://www.last.fm/api/account/create) (callback URL unused).
+2. Add the key as the repo secret `LASTFM_API_KEY` (Settings → Secrets and variables → Actions).
+3. Run **Snapshot Last.fm top charts** once from the Actions tab (`workflow_dispatch`), then daily cron keeps it fresh.
+
 ## Update Ruby dependencies
 
 ```shell

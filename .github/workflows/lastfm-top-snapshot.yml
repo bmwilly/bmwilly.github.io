@@ -1,0 +1,44 @@
+# Public Last.fm top-artists/albums/tracks snapshot for the homepage widget.
+# Chart methods need an API key but not a user session. This workflow refreshes
+# _data/lastfm_top.json once a day so Jekyll can inline charts at build time.
+name: Snapshot Last.fm top charts
+
+on:
+  schedule:
+    # Daily 06:30 UTC (after the 06:00 Lichess snapshot)
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lastfm-top-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Fetch top charts
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: |
+          set -euo pipefail
+          python3 scripts/fetch_lastfm_top.py
+
+      - name: Commit snapshot if changed
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/lastfm_top.json
+          if git diff --staged --quiet; then
+            echo "Snapshot unchanged"
+            exit 0
+          fi
+          git commit -m "chore: refresh Last.fm top-charts snapshot"
+          git push

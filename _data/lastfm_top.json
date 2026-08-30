@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-08-29T18:15:56+00:00",
+  "period": "1month",
+  "user": "bmwilly",
+  "artists": [
+    {
+      "rank": 1,
+      "name": "ID",
+      "playcount": 18,
+      "url": "https://www.last.fm/music/ID"
+    },
+    {
+      "rank": 2,
+      "name": "D'Julz",
+      "playcount": 9,
+      "url": "https://www.last.fm/music/D%27Julz"
+    },
+    {
+      "rank": 3,
+      "name": "Matias Aguayo",
+      "playcount": 8,
+      "url": "https://www.last.fm/music/Matias+Aguayo"
+    },
+    {
+      "rank": 4,
+      "name": "Massimiliano Pagliara",
+      "playcount": 7,
+      "url": "https://www.last.fm/music/Massimiliano+Pagliara"
+    },
+    {
+      "rank": 5,
+      "name": "Cocteau Twins",
+      "playcount": 6,
+      "url": "https://www.last.fm/music/Cocteau+Twins"
+    }
+  ],
+  "albums": [
+    {
+      "rank": 1,
+      "name": "Beats In Space 216: Tim Sweeney (DJ Mix)",
+      "artist": "D'Julz",
+      "playcount": 8,
+      "url": "https://www.last.fm/music/D%27Julz/Beats+In+Space+216:+Tim+Sweeney+(DJ+Mix)"
+    },
+    {
+      "rank": 2,
+      "name": "10 Years Love On The Rocks - Sky Is The Limit",
+      "artist": "Various Artists",
+      "playcount": 8,
+      "url": "https://www.last.fm/music/Various+Artists/10+Years+Love+On+The+Rocks+-+Sky+Is+The+Limit"
+    },
+    {
+      "rank": 3,
+      "name": "Anenoa",
+      "artist": "Matias Aguayo",
+      "playcount": 7,
+      "url": "https://www.last.fm/music/Matias+Aguayo/Anenoa"
+    },
+    {
+      "rank": 4,
+      "name": "Treasure",
+      "artist": "Cocteau Twins",
+      "playcount": 6,
+      "url": "https://www.last.fm/music/Cocteau+Twins/Treasure"
+    },
+    {
+      "rank": 5,
+      "name": "20 Years of Massimiliano Pagliara",
+      "artist": "Massimiliano Pagliara",
+      "playcount": 6,
+      "url": "https://www.last.fm/music/Massimiliano+Pagliara/20+Years+of+Massimiliano+Pagliara"
+    }
+  ],
+  "tracks": [
+    {
+      "rank": 1,
+      "name": "Bam City",
+      "artist": "!!!",
+      "playcount": 1,
+      "url": "https://www.last.fm/music/!!!/_/Bam+City"
+    },
+    {
+      "rank": 2,
+      "name": "Dance With Me (Honeyluv Remix) / In The Beginning (There Was Jack) [feat. Monique Bingham] [Mixed]",
+      "artist": "112 & Chuck Roberts",
+      "playcount": 1,
+      "url": "https://www.last.fm/music/112+&+Chuck+Roberts/_/Dance+With+Me+(Honeyluv+Remix)+%2F+In+The+Beginning+(There+Was+Jack)+%5Bfeat.+Monique+Bingham%5D+%5BMixed%5D"
+    },
+    {
+      "rank": 3,
+      "name": "The Moodymann",
+      "artist": "2 Billion Beats",
+      "playcount": 1,
+      "url": "https://www.last.fm/music/2+Billion+Beats/_/The+Moodymann"
+    },
+    {
+      "rank": 4,
+      "name": "The Love Theme",
+      "artist": "Alex Kassian, Running Hot & Surco's Groove",
+      "playcount": 1,
+      "url": "https://www.last.fm/music/Alex+Kassian,+Running+Hot+&+Surco%27s+Groove/_/The+Love+Theme"
+    },
+    {
+      "rank": 5,
+      "name": "Last one 1st (Life Recorder Remix) [Mixed]",
+      "artist": "Alton Miller",
+      "playcount": 1,
+      "url": "https://www.last.fm/music/Alton+Miller/_/Last+one+1st+(Life+Recorder+Remix)+%5BMixed%5D"
+    }
+  ]
+}

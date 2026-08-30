@@ -1,0 +1,19 @@
+<aside id="lastfm-charts" class="lastfm-charts">
+  {% assign charts = site.data.lastfm_top %}
+  {% if charts == nil or charts.user == nil %}
+    <p class="lastfm-charts__error">Last.fm snapshot is missing. Refresh <code>_data/lastfm_top.json</code>.</p>
+  {% else %}
+    {% assign fetched_at = charts.fetched_at | date: "%b %-d" %}
+    <div class="lastfm-charts__top">
+      <div class="lastfm-charts__heading">
+        <a href="https://www.last.fm/user/{{ site.lastfm_username }}">Last.fm</a>
+        <span class="lastfm-charts__window">last 30 days · as of {{ fetched_at }}</span>
+      </div>
+    </div>
+    <div class="lastfm-charts__columns">
+      {% include lastfm-charts-column.html title="Artists" items=charts.artists %}
+      {% include lastfm-charts-column.html title="Albums" items=charts.albums %}
+      {% include lastfm-charts-column.html title="Tracks" items=charts.tracks %}
+    </div>
+  {% endif %}
+</aside>
