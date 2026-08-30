@@ -1,11 +1,12 @@
 # Public Last.fm top-artists/albums/tracks snapshot for the homepage widget.
-# Chart methods need an API key but not a user session. This workflow refreshes
-# _data/lastfm_top.json once a day so Jekyll can inline charts at build time.
+# Chart methods need an API key but not a user session. This GitHub Actions
+# workflow is the cron (hosted ubuntu-latest runner, not a machine crontab).
+# It refreshes _data/lastfm_top.json so Jekyll can inline charts at build time.
 name: Snapshot Last.fm top charts
 
 on:
   schedule:
-    # Daily 06:30 UTC (after the 06:00 Lichess snapshot)
+    # GitHub Actions schedule: daily 06:30 UTC (after the 06:00 Lichess snapshot)
     - cron: "30 6 * * *"
   workflow_dispatch:
 

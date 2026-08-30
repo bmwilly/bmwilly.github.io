@@ -1,12 +1,13 @@
 # Authenticated Lichess rating-history snapshot for the homepage widget.
 # Lichess only computes rating charts for authenticated requests; anonymous
-# calls get []. This workflow refreshes _data/lichess-rating-history.json
-# once a day so Jekyll can inline canonical Blitz/Rapid history at build time.
+# calls get []. This GitHub Actions workflow is the cron (hosted ubuntu-latest
+# runner, not a machine crontab). It refreshes _data/lichess-rating-history.json
+# so Jekyll can inline canonical Blitz/Rapid history at build time.
 name: Snapshot Lichess rating history
 
 on:
   schedule:
-    # Daily 06:00 UTC
+    # GitHub Actions schedule: daily 06:00 UTC
     - cron: "0 6 * * *"
   workflow_dispatch:
 
