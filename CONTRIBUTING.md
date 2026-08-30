@@ -64,7 +64,7 @@ The homepage Blitz/Rapid charts read [`_data/lichess-rating-history.json`](_data
 
 ## Last.fm top-charts snapshot
 
-The homepage artists/albums/tracks lists read [`_data/lastfm_top.json`](_data/lastfm_top.json), refreshed by [`.github/workflows/lastfm-top-snapshot.yml`](.github/workflows/lastfm-top-snapshot.yml) via [`scripts/fetch_lastfm_top.py`](scripts/fetch_lastfm_top.py). Jekyll inlines that file at build time; the browser never calls Last.fm. Chart methods need an API key but not a user session or shared secret.
+The homepage artists/albums/tracks lists read [`_data/lastfm_top.json`](_data/lastfm_top.json), refreshed by [`.github/workflows/lastfm-top-snapshot.yml`](.github/workflows/lastfm-top-snapshot.yml) via [`scripts/fetch_lastfm_top.py`](scripts/fetch_lastfm_top.py) for Last.fm's `3month` window (shown as last 90 days). Jekyll inlines that file at build time; the browser never calls Last.fm. Chart methods need an API key but not a user session or shared secret. The snapshot drops the placeholder artist `ID`.
 
 `LASTFM_API_KEY` is a **GitHub Actions repo secret**. For a local refresh, export it and run `python3 scripts/fetch_lastfm_top.py`. It is **not** required for `task serve`: Jekyll needs the committed `_data` snapshot. If that file is missing, the widget shows an error instead of querying Last.fm.
 

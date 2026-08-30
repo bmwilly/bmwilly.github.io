@@ -32,7 +32,8 @@
 .lastfm-charts__window,
 .lastfm-charts__empty,
 .lastfm-charts__artist,
-.lastfm-charts__error {
+.lastfm-charts__error,
+.lastfm-charts__plays-label {
   color: var(--lastfm-flat);
   font-size: 0.8em;
 }
@@ -47,11 +48,23 @@
   gap: 1.25em 1.5em;
 }
 
+.lastfm-charts__column-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75em;
+  margin-bottom: 0.45em;
+}
+
 .lastfm-charts__column-title {
-  margin: 0 0 0.45em;
+  margin: 0;
   color: var(--lastfm-up);
   font-size: 0.95em;
   font-weight: 700;
+}
+
+.lastfm-charts__plays-label {
+  flex-shrink: 0;
 }
 
 .lastfm-charts__empty {
