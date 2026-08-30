@@ -4,13 +4,19 @@
     Blitz/Rapid sparklines from _data/lichess-rating-history.json (refreshed by
     .github/workflows/lichess-ratings-snapshot.yml with a Lichess token).
     Jekyll inlines the snapshot; the browser never calls Lichess.
+    "as of" is snapshot fetched_at, not the last rated game day.
   -->
+  {% assign snapshot = site.data["lichess-rating-history"] %}
   <script type="application/json"
-    id="lichess-rating-history-data">{{ site.data["lichess-rating-history"] | jsonify }}</script>
+    id="lichess-rating-history-data">{{ snapshot | jsonify }}</script>
   <div class="lichess-ratings__top">
     <div class="lichess-ratings__heading">
       <a href="https://lichess.org/@/{{ site.lichess_username }}">Lichess</a>
+      {% if snapshot.fetched_at %}
+      <span class="lichess-ratings__window">last 90 days · as of {{ snapshot.fetched_at | date: "%b %-d" }}</span>
+      {% else %}
       <span class="lichess-ratings__window">last 90 days</span>
+      {% endif %}
     </div>
     <div class="lichess-ratings__mood" hidden>
       <svg class="lichess-ratings__face" viewBox="0 0 40 40" aria-hidden="true">

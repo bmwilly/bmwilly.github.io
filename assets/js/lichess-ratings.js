@@ -26,13 +26,13 @@
     }
 
     try {
-      const history = readInlinedHistory();
-      if (!hasPerfPoints(history, PERFS)) {
+      const snapshot = readInlinedSnapshot();
+      if (!hasPerfPoints(snapshot.history, PERFS)) {
         throw new Error("lichess-ratings: inlined snapshot has no Blitz or Rapid points");
       }
       const now = new Date();
       const series = PERFS.map((name) => {
-        const entry = history.find((item) => item.name === name);
+        const entry = snapshot.history.find((item) => item.name === name);
         if (!entry) {
           return { name, missing: true };
         }
@@ -41,7 +41,7 @@
       if (series.every((item) => item.missing || item.empty)) {
         throw new Error(`lichess-ratings: no ${PERFS.join(" or ")} history for ${username}`);
       }
-      render(root, series, days, now);
+      render(root, series, days, now, snapshot.fetchedAt);
     } catch (err) {
       status.hidden = false;
       status.textContent = err instanceof Error ? err.message : String(err);
@@ -56,7 +56,7 @@
     });
   }
 
-  function readInlinedHistory() {
+  function readInlinedSnapshot() {
     const node = document.getElementById("lichess-rating-history-data");
     if (!node) {
       throw new Error("lichess-ratings: #lichess-rating-history-data not found");
@@ -67,10 +67,17 @@
     } catch {
       throw new Error("lichess-ratings: inlined snapshot was not valid JSON");
     }
-    if (!Array.isArray(payload)) {
-      throw new Error("lichess-ratings: inlined snapshot was not an array");
+    if (Array.isArray(payload) || payload === null || typeof payload !== "object") {
+      throw new Error("lichess-ratings: snapshot must be an object with fetched_at and history");
     }
-    return payload;
+    const fetchedAt = new Date(payload.fetched_at);
+    if (typeof payload.fetched_at !== "string" || Number.isNaN(fetchedAt.getTime())) {
+      throw new Error("lichess-ratings: snapshot missing or invalid fetched_at");
+    }
+    if (!Array.isArray(payload.history)) {
+      throw new Error("lichess-ratings: snapshot history was not an array");
+    }
+    return { history: payload.history, fetchedAt };
   }
 
   function parsePoint(point) {
@@ -128,12 +135,11 @@
       current: endPoint.rating,
       delta: endPoint.rating - startRating,
       playedDays: inWindow.length,
-      asOf: endPoint.date,
       plot,
     };
   }
 
-  function render(root, series, days, now) {
+  function render(root, series, days, now, fetchedAt) {
     const status = root.querySelector(".lichess-ratings__status");
     const seriesRoot = root.querySelector(".lichess-ratings__series");
     const moodRoot = root.querySelector(".lichess-ratings__mood");
@@ -146,14 +152,12 @@
 
     const mood = moodFromSeries(series);
     renderMood(moodRoot, mood);
-    const latest = series
-      .filter((item) => item.asOf)
-      .map((item) => item.asOf)
-      .sort((a, b) => b - a)[0];
-    const asOf = latest
-      ? ` · as of ${latest.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" })}`
-      : "";
-    windowLabel.textContent = `last ${days} days${asOf}`;
+    const asOf = fetchedAt.toLocaleDateString("en-US", {
+      month: "short",
+      day: "numeric",
+      timeZone: "UTC",
+    });
+    windowLabel.textContent = `last ${days} days · as of ${asOf}`;
     seriesRoot.hidden = false;
     moodRoot.hidden = false;
     status.hidden = true;
