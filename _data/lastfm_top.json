@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-08-30T18:07:50+00:00",
+  "period": "3month",
+  "user": "bmwilly",
+  "artists": [
+    {
+      "rank": 1,
+      "name": "Massimiliano Pagliara",
+      "playcount": 26,
+      "url": "https://www.last.fm/music/Massimiliano+Pagliara"
+    },
+    {
+      "rank": 2,
+      "name": "Boards of Canada",
+      "playcount": 20,
+      "url": "https://www.last.fm/music/Boards+of+Canada"
+    },
+    {
+      "rank": 3,
+      "name": "DJ Seinfeld",
+      "playcount": 19,
+      "url": "https://www.last.fm/music/DJ+Seinfeld"
+    },
+    {
+      "rank": 4,
+      "name": "DJ Shadow",
+      "playcount": 14,
+      "url": "https://www.last.fm/music/DJ+Shadow"
+    },
+    {
+      "rank": 5,
+      "name": "of Montreal",
+      "playcount": 13,
+      "url": "https://www.last.fm/music/of+Montreal"
+    }
+  ],
+  "albums": [
+    {
+      "rank": 1,
+      "name": "Inferno",
+      "artist": "Boards of Canada",
+      "playcount": 19,
+      "url": "https://www.last.fm/music/Boards+of+Canada/Inferno"
+    },
+    {
+      "rank": 2,
+      "name": "Endtroducing.....",
+      "artist": "DJ Shadow",
+      "playcount": 14,
+      "url": "https://www.last.fm/music/DJ+Shadow/Endtroducing....."
+    },
+    {
+      "rank": 3,
+      "name": "aethermead",
+      "artist": "of Montreal",
+      "playcount": 13,
+      "url": "https://www.last.fm/music/of+Montreal/aethermead"
+    },
+    {
+      "rank": 4,
+      "name": "20 Years of Massimiliano Pagliara",
+      "artist": "Massimiliano Pagliara",
+      "playcount": 12,
+      "url": "https://www.last.fm/music/Massimiliano+Pagliara/20+Years+of+Massimiliano+Pagliara"
+    },
+    {
+      "rank": 5,
+      "name": "Beats in Space 210: Massimiliano Pagliara (DJ Mix)",
+      "artist": "Massimiliano Pagliara",
+      "playcount": 12,
+      "url": "https://www.last.fm/music/Massimiliano+Pagliara/Beats+in+Space+210:+Massimiliano+Pagliara+(DJ+Mix)"
+    }
+  ],
+  "tracks": [
+    {
+      "rank": 1,
+      "name": "Anything",
+      "artist": "Massimiliano Pagliara & Maja",
+      "playcount": 4,
+      "url": "https://www.last.fm/music/Massimiliano+Pagliara+&+Maja/_/Anything"
+    },
+    {
+      "rank": 2,
+      "name": "Neon Memories",
+      "artist": "Massimiliano Pagliara & Alinka",
+      "playcount": 3,
+      "url": "https://www.last.fm/music/Massimiliano+Pagliara+&+Alinka/_/Neon+Memories"
+    },
+    {
+      "rank": 3,
+      "name": "Hey Baby",
+      "artist": "The Field",
+      "playcount": 3,
+      "url": "https://www.last.fm/music/The+Field/_/Hey+Baby"
+    },
+    {
+      "rank": 4,
+      "name": "The Love Theme",
+      "artist": "Alex Kassian, Running Hot & Surco's Groove",
+      "playcount": 2,
+      "url": "https://www.last.fm/music/Alex+Kassian,+Running+Hot+&+Surco%27s+Groove/_/The+Love+Theme"
+    },
+    {
+      "rank": 5,
+      "name": "Frisky Mellows",
+      "artist": "Clark",
+      "playcount": 2,
+      "url": "https://www.last.fm/music/Clark/_/Frisky+Mellows"
+    }
+  ]
+}

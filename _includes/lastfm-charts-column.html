@@ -1,0 +1,25 @@
+<section class="lastfm-charts__column">
+  <div class="lastfm-charts__column-head">
+    <h3 class="lastfm-charts__column-title">{{ include.title }}</h3>
+    {% if include.items.size > 0 %}
+      <span class="lastfm-charts__plays-label">plays</span>
+    {% endif %}
+  </div>
+  {% if include.items.size == 0 %}
+    <p class="lastfm-charts__empty">No {{ include.title | downcase }} in the last 90 days.</p>
+  {% else %}
+    <ol class="lastfm-charts__list">
+      {% for item in include.items %}
+        <li class="lastfm-charts__row">
+          <div class="lastfm-charts__copy">
+            <a class="lastfm-charts__name" href="{{ item.url }}">{{ item.name }}</a>
+            {% if item.artist %}
+              <span class="lastfm-charts__artist">{{ item.artist }}</span>
+            {% endif %}
+          </div>
+          <span class="lastfm-charts__playcount" aria-label="{{ item.playcount }} plays">{{ item.playcount }}</span>
+        </li>
+      {% endfor %}
+    </ol>
+  {% endif %}
+</section>
