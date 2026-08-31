@@ -45,6 +45,10 @@ I have many personal interests (dance music, film, video games) and hobbies (che
 
 * [Stokes-Brinkman solver in Julia](https://bmwilly.github.io/brinkman-stokes/)
 
+<a href="https://bmwilly.github.io/brinkman-stokes/">
+  <img src="/docs/assets/brinkman-stokes.png" alt="Stokes-Brinkman flow field through obstacles" style="max-width: 280px; height: auto; border-radius: 8px; border: 1px solid #555; margin: 0.5em 0 1em;" />
+</a>
+
 ## Art that I like
 
 ### One good song from each decade since modern pop music began
