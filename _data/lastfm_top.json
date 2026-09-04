@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-03T11:32:39+00:00",
+  "fetched_at": "2026-09-04T11:35:10+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -17,21 +17,21 @@
     },
     {
       "rank": 3,
-      "name": "DJ Seinfeld",
-      "playcount": 19,
-      "url": "https://www.last.fm/music/DJ+Seinfeld"
-    },
-    {
-      "rank": 4,
       "name": "DJ Shadow",
       "playcount": 14,
       "url": "https://www.last.fm/music/DJ+Shadow"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "Roman Fl\u00fcgel",
       "playcount": 12,
       "url": "https://www.last.fm/music/Roman+Fl%C3%BCgel"
+    },
+    {
+      "rank": 5,
+      "name": "Etienne de Cr\u00e9cy",
+      "playcount": 10,
+      "url": "https://www.last.fm/music/Etienne+de+Cr%C3%A9cy"
     }
   ],
   "albums": [
@@ -65,10 +65,10 @@
     },
     {
       "rank": 5,
-      "name": "If This Is It",
-      "artist": "DJ Seinfeld",
+      "name": "Beats In Space 205: Etienne de Cr\u00e9cy (DJ Mix)",
+      "artist": "Etienne de Cr\u00e9cy",
       "playcount": 10,
-      "url": "https://www.last.fm/music/DJ+Seinfeld/If+This+Is+It"
+      "url": "https://www.last.fm/music/Etienne+de+Cr%C3%A9cy/Beats+In+Space+205:+Etienne+de+Cr%C3%A9cy+(DJ+Mix)"
     }
   ],
   "tracks": [
