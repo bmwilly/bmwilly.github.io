@@ -54,7 +54,7 @@ task: Available tasks for this project:
 
 ## Snapshot refresh (GitHub Actions)
 
-The homepage widgets read committed `_data` JSON. There is no machine crontab. Each snapshot workflow under [`.github/workflows/`](.github/workflows/) is the schedule: GitHub Actions starts it on a hosted `ubuntu-latest` runner (`on.schedule` cron in that YAML), then the job commits and pushes if the file changed. Inspect or run workflows from the repo **Actions** tab (`workflow_dispatch` for a one-off). GitHub may delay or skip scheduled jobs on idle public repos.
+The homepage widgets read committed `_data` JSON. There is no machine crontab. Each snapshot workflow under [`.github/workflows/`](.github/workflows/) is the schedule: GitHub Actions starts it on a hosted `ubuntu-latest` runner (`on.schedule` cron in that YAML), then the job commits and pushes if the file changed. Those commits use `GITHUB_TOKEN`, which does not start other `push` workflows, so [`.github/workflows/jekyll-gh-pages.yml`](.github/workflows/jekyll-gh-pages.yml) also listens for `workflow_run` after the snapshot jobs and rebuilds the site. Inspect or run workflows from the repo **Actions** tab (`workflow_dispatch` for a one-off). GitHub may delay or skip scheduled jobs on idle public repos.
 
 ## Lichess ratings snapshot
 

@@ -13,6 +13,16 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Snapshot workflows commit with GITHUB_TOKEN, which does not create a
+  # follow-on push workflow. Rebuild after those jobs so the homepage
+  # widgets pick up the new _data JSON.
+  workflow_run:
+    workflows:
+      - Snapshot Lichess rating history
+      - Snapshot Last.fm top charts
+    types:
+      - completed
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -28,10 +38,15 @@ concurrency:
 jobs:
   # Build job
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          # workflow_run's default SHA is the snapshot job's starting commit,
+          # which is older than the snapshot it just pushed. Always build tip.
+          ref: master
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
