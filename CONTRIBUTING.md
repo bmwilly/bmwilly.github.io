@@ -27,12 +27,14 @@ Install Ruby. We recommend using `rbenv` to manage Ruby versions:
 brew install rbenv
 rbenv install 3.4.2
 rbenv local 3.4.2
+eval "$(rbenv init - zsh)"
 ```
 
-Install Ruby dependencies:
+Confirm `ruby -v` is 3.4.2 and `which ruby` is under `~/.rbenv` (not `/usr/bin/ruby`). Then install Bundler and gems **without** `sudo` (sudo targets macOS system Ruby 2.6):
 
 ```shell
-sudo gem install bundler
+gem install bundler
+rbenv rehash
 bundle install
 ```
 
