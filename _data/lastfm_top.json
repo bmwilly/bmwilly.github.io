@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-08T11:36:06+00:00",
+  "fetched_at": "2026-09-09T11:43:44+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -23,15 +23,15 @@
     },
     {
       "rank": 4,
-      "name": "Roman Fl\u00fcgel",
-      "playcount": 12,
-      "url": "https://www.last.fm/music/Roman+Fl%C3%BCgel"
+      "name": "Bell Towers",
+      "playcount": 13,
+      "url": "https://www.last.fm/music/Bell+Towers"
     },
     {
       "rank": 5,
-      "name": "Etienne de Cr\u00e9cy",
-      "playcount": 10,
-      "url": "https://www.last.fm/music/Etienne+de+Cr%C3%A9cy"
+      "name": "Roman Fl\u00fcgel",
+      "playcount": 12,
+      "url": "https://www.last.fm/music/Roman+Fl%C3%BCgel"
     }
   ],
   "albums": [
@@ -65,10 +65,10 @@
     },
     {
       "rank": 5,
-      "name": "Beats In Space 205: Etienne de Cr\u00e9cy (DJ Mix)",
-      "artist": "Etienne de Cr\u00e9cy",
+      "name": "Advanced Style",
+      "artist": "Bell Towers",
       "playcount": 10,
-      "url": "https://www.last.fm/music/Etienne+de+Cr%C3%A9cy/Beats+In+Space+205:+Etienne+de+Cr%C3%A9cy+(DJ+Mix)"
+      "url": "https://www.last.fm/music/Bell+Towers/Advanced+Style"
     }
   ],
   "tracks": [
