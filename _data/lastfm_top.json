@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-09-09T11:43:44+00:00",
+  "fetched_at": "2026-09-10T11:41:38+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
     {
       "rank": 1,
-      "name": "Massimiliano Pagliara",
-      "playcount": 26,
-      "url": "https://www.last.fm/music/Massimiliano+Pagliara"
-    },
-    {
-      "rank": 2,
       "name": "Boards of Canada",
       "playcount": 20,
       "url": "https://www.last.fm/music/Boards+of+Canada"
+    },
+    {
+      "rank": 2,
+      "name": "Massimiliano Pagliara",
+      "playcount": 20,
+      "url": "https://www.last.fm/music/Massimiliano+Pagliara"
     },
     {
       "rank": 3,
@@ -30,7 +30,7 @@
     {
       "rank": 5,
       "name": "Roman Fl\u00fcgel",
-      "playcount": 12,
+      "playcount": 11,
       "url": "https://www.last.fm/music/Roman+Fl%C3%BCgel"
     }
   ],
@@ -58,17 +58,17 @@
     },
     {
       "rank": 4,
-      "name": "Beats in Space 210: Massimiliano Pagliara (DJ Mix)",
-      "artist": "Massimiliano Pagliara",
-      "playcount": 12,
-      "url": "https://www.last.fm/music/Massimiliano+Pagliara/Beats+in+Space+210:+Massimiliano+Pagliara+(DJ+Mix)"
-    },
-    {
-      "rank": 5,
       "name": "Advanced Style",
       "artist": "Bell Towers",
       "playcount": 10,
       "url": "https://www.last.fm/music/Bell+Towers/Advanced+Style"
+    },
+    {
+      "rank": 5,
+      "name": "Beats In Space 205: Etienne de Cr\u00e9cy (DJ Mix)",
+      "artist": "Etienne de Cr\u00e9cy",
+      "playcount": 10,
+      "url": "https://www.last.fm/music/Etienne+de+Cr%C3%A9cy/Beats+In+Space+205:+Etienne+de+Cr%C3%A9cy+(DJ+Mix)"
     }
   ],
   "tracks": [
@@ -95,17 +95,17 @@
     },
     {
       "rank": 4,
+      "name": "Together (feat. Nikki Nair, Jessy Lanza & Prentiss)",
+      "artist": "The Avalanches",
+      "playcount": 3,
+      "url": "https://www.last.fm/music/The+Avalanches/_/Together+(feat.+Nikki+Nair,+Jessy+Lanza+&+Prentiss)"
+    },
+    {
+      "rank": 5,
       "name": "Hey Baby",
       "artist": "The Field",
       "playcount": 3,
       "url": "https://www.last.fm/music/The+Field/_/Hey+Baby"
-    },
-    {
-      "rank": 5,
-      "name": "The Love Theme",
-      "artist": "Alex Kassian, Running Hot & Surco's Groove",
-      "playcount": 2,
-      "url": "https://www.last.fm/music/Alex+Kassian,+Running+Hot+&+Surco%27s+Groove/_/The+Love+Theme"
     }
   ]
 }
