@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-12T11:07:02+00:00",
+  "fetched_at": "2026-09-13T12:12:40+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -11,15 +11,15 @@
     },
     {
       "rank": 2,
-      "name": "Massimiliano Pagliara",
-      "playcount": 20,
-      "url": "https://www.last.fm/music/Massimiliano+Pagliara"
-    },
-    {
-      "rank": 3,
       "name": "DJ Shadow",
       "playcount": 14,
       "url": "https://www.last.fm/music/DJ+Shadow"
+    },
+    {
+      "rank": 3,
+      "name": "Massimiliano Pagliara",
+      "playcount": 14,
+      "url": "https://www.last.fm/music/Massimiliano+Pagliara"
     },
     {
       "rank": 4,
