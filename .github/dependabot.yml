@@ -18,6 +18,12 @@ updates:
     allow:
       - dependency-type: "direct"
       - dependency-type: "indirect"
+    # github-pages pins these below their latest majors. Dependabot crashes
+    # the whole bundler job instead of skipping the impossible major bump.
+    # https://github.com/dependabot/dependabot-core/issues/14838
+    ignore:
+      - dependency-name: "unicode-display_width"
+      - dependency-name: "simpleidn"
     labels:
       - "dependencies"
       - "ruby"
