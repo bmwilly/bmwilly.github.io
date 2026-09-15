@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-14T13:11:43+00:00",
+  "fetched_at": "2026-09-15T11:59:10+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -11,27 +11,27 @@
     },
     {
       "rank": 2,
-      "name": "DJ Shadow",
-      "playcount": 14,
-      "url": "https://www.last.fm/music/DJ+Shadow"
-    },
-    {
-      "rank": 3,
       "name": "Massimiliano Pagliara",
       "playcount": 14,
       "url": "https://www.last.fm/music/Massimiliano+Pagliara"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "Bell Towers",
       "playcount": 11,
       "url": "https://www.last.fm/music/Bell+Towers"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "Opus III",
       "playcount": 10,
       "url": "https://www.last.fm/music/Opus+III"
+    },
+    {
+      "rank": 5,
+      "name": "D'Julz",
+      "playcount": 9,
+      "url": "https://www.last.fm/music/D%27Julz"
     }
   ],
   "albums": [
@@ -44,31 +44,31 @@
     },
     {
       "rank": 2,
-      "name": "Endtroducing.....",
-      "artist": "DJ Shadow",
-      "playcount": 14,
-      "url": "https://www.last.fm/music/DJ+Shadow/Endtroducing....."
-    },
-    {
-      "rank": 3,
       "name": "20 Years of Massimiliano Pagliara",
       "artist": "Massimiliano Pagliara",
       "playcount": 12,
       "url": "https://www.last.fm/music/Massimiliano+Pagliara/20+Years+of+Massimiliano+Pagliara"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "Advanced Style",
       "artist": "Bell Towers",
       "playcount": 10,
       "url": "https://www.last.fm/music/Bell+Towers/Advanced+Style"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "Mind Fruit",
       "artist": "Opus III",
       "playcount": 10,
       "url": "https://www.last.fm/music/Opus+III/Mind+Fruit"
+    },
+    {
+      "rank": 5,
+      "name": "Beats In Space 216: Tim Sweeney (DJ Mix)",
+      "artist": "D'Julz",
+      "playcount": 8,
+      "url": "https://www.last.fm/music/D%27Julz/Beats+In+Space+216:+Tim+Sweeney+(DJ+Mix)"
     }
   ],
   "tracks": [
