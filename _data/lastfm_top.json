@@ -1,37 +1,37 @@
 {
-  "fetched_at": "2026-09-21T13:11:04+00:00",
+  "fetched_at": "2026-09-22T11:56:50+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
     {
       "rank": 1,
+      "name": "Daft Punk",
+      "playcount": 21,
+      "url": "https://www.last.fm/music/Daft+Punk"
+    },
+    {
+      "rank": 2,
       "name": "Boards of Canada",
       "playcount": 20,
       "url": "https://www.last.fm/music/Boards+of+Canada"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Massimiliano Pagliara",
       "playcount": 14,
       "url": "https://www.last.fm/music/Massimiliano+Pagliara"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "Bell Towers",
       "playcount": 11,
       "url": "https://www.last.fm/music/Bell+Towers"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Opus III",
       "playcount": 10,
       "url": "https://www.last.fm/music/Opus+III"
-    },
-    {
-      "rank": 5,
-      "name": "D'Julz",
-      "playcount": 9,
-      "url": "https://www.last.fm/music/D%27Julz"
     }
   ],
   "albums": [
@@ -44,31 +44,31 @@
     },
     {
       "rank": 2,
+      "name": "Discovery",
+      "artist": "Daft Punk",
+      "playcount": 16,
+      "url": "https://www.last.fm/music/Daft+Punk/Discovery"
+    },
+    {
+      "rank": 3,
       "name": "20 Years of Massimiliano Pagliara",
       "artist": "Massimiliano Pagliara",
       "playcount": 12,
       "url": "https://www.last.fm/music/Massimiliano+Pagliara/20+Years+of+Massimiliano+Pagliara"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "Advanced Style",
       "artist": "Bell Towers",
       "playcount": 10,
       "url": "https://www.last.fm/music/Bell+Towers/Advanced+Style"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Mind Fruit",
       "artist": "Opus III",
       "playcount": 10,
       "url": "https://www.last.fm/music/Opus+III/Mind+Fruit"
-    },
-    {
-      "rank": 5,
-      "name": "Beats In Space 216: Tim Sweeney (DJ Mix)",
-      "artist": "D'Julz",
-      "playcount": 8,
-      "url": "https://www.last.fm/music/D%27Julz/Beats+In+Space+216:+Tim+Sweeney+(DJ+Mix)"
     }
   ],
   "tracks": [
