@@ -34,4 +34,4 @@ tasks:
   update:
     desc: update Ruby dependencies locally (requires bundler)
     cmds:
-      - bundle update
+      - bundle update --all
