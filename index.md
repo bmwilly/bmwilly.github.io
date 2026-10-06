@@ -32,6 +32,7 @@ I have many personal interests (dance music, film, video games) and hobbies (che
 {% include lastfm-charts.html %}
 
 * [Apple Music](https://music.apple.com/profile/bmwilly9)
+* [SoundCloud](https://soundcloud.com/bmwilly)
 * [Discogs](https://www.discogs.com/user/bmwilly9)
 * [Spotify](https://open.spotify.com/user/brandonwilliams)
 * [Youtube](https://www.youtube.com/@bmwilly/featured)
