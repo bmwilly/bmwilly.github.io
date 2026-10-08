@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-07T13:43:55+00:00",
+  "fetched_at": "2026-10-08T13:52:07+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -11,27 +11,27 @@
     },
     {
       "rank": 2,
-      "name": "Massimiliano Pagliara",
-      "playcount": 14,
-      "url": "https://www.last.fm/music/Massimiliano+Pagliara"
-    },
-    {
-      "rank": 3,
       "name": "Bell Towers",
       "playcount": 11,
       "url": "https://www.last.fm/music/Bell+Towers"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "Opus III",
       "playcount": 10,
       "url": "https://www.last.fm/music/Opus+III"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "D'Julz",
       "playcount": 9,
       "url": "https://www.last.fm/music/D%27Julz"
+    },
+    {
+      "rank": 5,
+      "name": "Massimiliano Pagliara",
+      "playcount": 9,
+      "url": "https://www.last.fm/music/Massimiliano+Pagliara"
     }
   ],
   "albums": [
@@ -44,31 +44,31 @@
     },
     {
       "rank": 2,
-      "name": "20 Years of Massimiliano Pagliara",
-      "artist": "Massimiliano Pagliara",
-      "playcount": 12,
-      "url": "https://www.last.fm/music/Massimiliano+Pagliara/20+Years+of+Massimiliano+Pagliara"
-    },
-    {
-      "rank": 3,
       "name": "Advanced Style",
       "artist": "Bell Towers",
       "playcount": 10,
       "url": "https://www.last.fm/music/Bell+Towers/Advanced+Style"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "Mind Fruit",
       "artist": "Opus III",
       "playcount": 10,
       "url": "https://www.last.fm/music/Opus+III/Mind+Fruit"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "Beats In Space 216: Tim Sweeney (DJ Mix)",
       "artist": "D'Julz",
       "playcount": 8,
       "url": "https://www.last.fm/music/D%27Julz/Beats+In+Space+216:+Tim+Sweeney+(DJ+Mix)"
+    },
+    {
+      "rank": 5,
+      "name": "10 Years Love On The Rocks - Sky Is The Limit",
+      "artist": "Various Artists",
+      "playcount": 8,
+      "url": "https://www.last.fm/music/Various+Artists/10+Years+Love+On+The+Rocks+-+Sky+Is+The+Limit"
     }
   ],
   "tracks": [
@@ -81,31 +81,31 @@
     },
     {
       "rank": 2,
-      "name": "Oh Boy",
-      "artist": "Massimiliano Pagliara & Alessandro Tartari",
-      "playcount": 3,
-      "url": "https://www.last.fm/music/Massimiliano+Pagliara+&+Alessandro+Tartari/_/Oh+Boy"
-    },
-    {
-      "rank": 3,
-      "name": "Neon Memories",
-      "artist": "Massimiliano Pagliara & Alinka",
-      "playcount": 3,
-      "url": "https://www.last.fm/music/Massimiliano+Pagliara+&+Alinka/_/Neon+Memories"
-    },
-    {
-      "rank": 4,
-      "name": "Anything",
-      "artist": "Massimiliano Pagliara & Maja",
-      "playcount": 3,
-      "url": "https://www.last.fm/music/Massimiliano+Pagliara+&+Maja/_/Anything"
-    },
-    {
-      "rank": 5,
       "name": "The Love Theme",
       "artist": "Alex Kassian, Running Hot & Surco's Groove",
       "playcount": 2,
       "url": "https://www.last.fm/music/Alex+Kassian,+Running+Hot+&+Surco%27s+Groove/_/The+Love+Theme"
+    },
+    {
+      "rank": 3,
+      "name": "Something About Us",
+      "artist": "Daft Punk",
+      "playcount": 2,
+      "url": "https://www.last.fm/music/Daft+Punk/_/Something+About+Us"
+    },
+    {
+      "rank": 4,
+      "name": "Voyager",
+      "artist": "Daft Punk",
+      "playcount": 2,
+      "url": "https://www.last.fm/music/Daft+Punk/_/Voyager"
+    },
+    {
+      "rank": 5,
+      "name": "Life Cycle",
+      "artist": "Dreamphaze",
+      "playcount": 2,
+      "url": "https://www.last.fm/music/Dreamphaze/_/Life+Cycle"
     }
   ]
 }
