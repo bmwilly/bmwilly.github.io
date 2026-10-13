@@ -20,7 +20,7 @@ I have many personal interests (dance music, film, video games) and hobbies (che
 ### Professional
 
 * [LinkedIn](https://www.linkedin.com/in/brandonwilliams9/)
-* [CV](https://gitlab.com/bmwilly/resume/-/blob/master/cv/BrandonWilliamsCV.pdf) and [Resume](https://gitlab.com/bmwilly/resume/-/blob/master/resume/BrandonWilliamsResume.pdf)
+* [CV](https://gitlab.com/bmwilly/resume/-/blob/main/cv/BrandonWilliamsCV.pdf) and [Resume](https://gitlab.com/bmwilly/resume/-/blob/main/resume/BrandonWilliamsResume.pdf)
 * [GitHub](https://github.com/bmwilly)
 * [GitLab](https://gitlab.com/bmwilly)
 * [Cursor](https://cursor.com/@bmwilly)

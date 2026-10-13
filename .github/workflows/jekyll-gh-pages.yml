@@ -8,7 +8,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -46,7 +46,7 @@ jobs:
         with:
           # workflow_run's default SHA is the snapshot job's starting commit,
           # which is older than the snapshot it just pushed. Always build tip.
-          ref: master
+          ref: main
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
