@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-11T13:17:24+00:00",
+  "fetched_at": "2026-10-13T14:28:48+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -81,31 +81,31 @@
     },
     {
       "rank": 2,
-      "name": "The Love Theme",
-      "artist": "Alex Kassian, Running Hot & Surco's Groove",
-      "playcount": 2,
-      "url": "https://www.last.fm/music/Alex+Kassian,+Running+Hot+&+Surco%27s+Groove/_/The+Love+Theme"
-    },
-    {
-      "rank": 3,
       "name": "Something About Us",
       "artist": "Daft Punk",
       "playcount": 2,
       "url": "https://www.last.fm/music/Daft+Punk/_/Something+About+Us"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "Voyager",
       "artist": "Daft Punk",
       "playcount": 2,
       "url": "https://www.last.fm/music/Daft+Punk/_/Voyager"
     },
     {
-      "rank": 5,
-      "name": "Life Cycle",
-      "artist": "Dreamphaze",
+      "rank": 4,
+      "name": "Jungle",
+      "artist": "Jimi Hendrix",
       "playcount": 2,
-      "url": "https://www.last.fm/music/Dreamphaze/_/Life+Cycle"
+      "url": "https://www.last.fm/music/Jimi+Hendrix/_/Jungle"
+    },
+    {
+      "rank": 5,
+      "name": "A Little Bit Of Ecstasy",
+      "artist": "Jocelyn Enriquez",
+      "playcount": 2,
+      "url": "https://www.last.fm/music/Jocelyn+Enriquez/_/A+Little+Bit+Of+Ecstasy"
     }
   ]
 }
