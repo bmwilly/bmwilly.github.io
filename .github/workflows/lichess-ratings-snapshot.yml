@@ -71,16 +71,24 @@ jobs:
           if not data:
               raise SystemExit("rating-history is empty []; token may be invalid or compute failed")
 
-          needed = ("Blitz", "Rapid")
-          slim = [
-              entry
-              for entry in data
-              if isinstance(entry, dict) and entry.get("name") in needed
-          ]
-          if not any(
-              isinstance(entry.get("points"), list) and len(entry["points"]) > 0
-              for entry in slim
-          ):
+          # Lichess rating-history names are lowercase (blitz, rapid). The widget
+          # matches the title-case names already stored in the snapshot.
+          canonical = {"blitz": "Blitz", "rapid": "Rapid"}
+          slim = []
+          for entry in data:
+              if not isinstance(entry, dict):
+                  continue
+              raw_name = entry.get("name")
+              if not isinstance(raw_name, str):
+                  continue
+              display_name = canonical.get(raw_name.casefold())
+              if display_name is None:
+                  continue
+              points = entry.get("points")
+              if not isinstance(points, list):
+                  continue
+              slim.append({**entry, "name": display_name, "points": points})
+          if not any(entry["points"] for entry in slim):
               names = [e.get("name") for e in data if isinstance(e, dict)]
               raise SystemExit(f"no Blitz or Rapid points in snapshot; names={names}")
 
