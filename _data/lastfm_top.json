@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-13T14:28:48+00:00",
+  "fetched_at": "2026-10-14T12:14:36+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -17,21 +17,21 @@
     },
     {
       "rank": 3,
+      "name": "Dawn Richard",
+      "playcount": 11,
+      "url": "https://www.last.fm/music/Dawn+Richard"
+    },
+    {
+      "rank": 4,
       "name": "Opus III",
       "playcount": 10,
       "url": "https://www.last.fm/music/Opus+III"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "D'Julz",
       "playcount": 9,
       "url": "https://www.last.fm/music/D%27Julz"
-    },
-    {
-      "rank": 5,
-      "name": "Matias Aguayo",
-      "playcount": 8,
-      "url": "https://www.last.fm/music/Matias+Aguayo"
     }
   ],
   "albums": [
@@ -44,31 +44,31 @@
     },
     {
       "rank": 2,
+      "name": "Creole Culture",
+      "artist": "Dawn Richard",
+      "playcount": 11,
+      "url": "https://www.last.fm/music/Dawn+Richard/Creole+Culture"
+    },
+    {
+      "rank": 3,
       "name": "Advanced Style",
       "artist": "Bell Towers",
       "playcount": 10,
       "url": "https://www.last.fm/music/Bell+Towers/Advanced+Style"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "Mind Fruit",
       "artist": "Opus III",
       "playcount": 10,
       "url": "https://www.last.fm/music/Opus+III/Mind+Fruit"
     },
     {
-      "rank": 4,
-      "name": "Beats In Space 216: Tim Sweeney (DJ Mix)",
-      "artist": "D'Julz",
-      "playcount": 8,
-      "url": "https://www.last.fm/music/D%27Julz/Beats+In+Space+216:+Tim+Sweeney+(DJ+Mix)"
-    },
-    {
       "rank": 5,
-      "name": "10 Years Love On The Rocks - Sky Is The Limit",
-      "artist": "Various Artists",
-      "playcount": 8,
-      "url": "https://www.last.fm/music/Various+Artists/10+Years+Love+On+The+Rocks+-+Sky+Is+The+Limit"
+      "name": "Lust for Life",
+      "artist": "Iggy Pop",
+      "playcount": 9,
+      "url": "https://www.last.fm/music/Iggy+Pop/Lust+for+Life"
     }
   ],
   "tracks": [
