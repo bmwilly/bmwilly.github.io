@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T11:56:00+00:00",
+  "fetched_at": "2026-10-16T11:46:28+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -81,31 +81,31 @@
     },
     {
       "rank": 2,
+      "name": "The Moodymann",
+      "artist": "2 Billion Beats",
+      "playcount": 2,
+      "url": "https://www.last.fm/music/2+Billion+Beats/_/The+Moodymann"
+    },
+    {
+      "rank": 3,
+      "name": "Dance Shake Swing",
+      "artist": "Billy Nightmare",
+      "playcount": 2,
+      "url": "https://www.last.fm/music/Billy+Nightmare/_/Dance+Shake+Swing"
+    },
+    {
+      "rank": 4,
       "name": "Something About Us",
       "artist": "Daft Punk",
       "playcount": 2,
       "url": "https://www.last.fm/music/Daft+Punk/_/Something+About+Us"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "name": "Voyager",
       "artist": "Daft Punk",
       "playcount": 2,
       "url": "https://www.last.fm/music/Daft+Punk/_/Voyager"
-    },
-    {
-      "rank": 4,
-      "name": "Jungle",
-      "artist": "Jimi Hendrix",
-      "playcount": 2,
-      "url": "https://www.last.fm/music/Jimi+Hendrix/_/Jungle"
-    },
-    {
-      "rank": 5,
-      "name": "A Little Bit Of Ecstasy",
-      "artist": "Jocelyn Enriquez",
-      "playcount": 2,
-      "url": "https://www.last.fm/music/Jocelyn+Enriquez/_/A+Little+Bit+Of+Ecstasy"
     }
   ]
 }
