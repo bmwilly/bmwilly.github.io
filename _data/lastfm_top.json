@@ -1,74 +1,74 @@
 {
-  "fetched_at": "2026-10-26T13:26:40+00:00",
+  "fetched_at": "2026-10-27T12:34:21+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
     {
       "rank": 1,
+      "name": "The Avalanches",
+      "playcount": 29,
+      "url": "https://www.last.fm/music/The+Avalanches"
+    },
+    {
+      "rank": 2,
       "name": "Daft Punk",
       "playcount": 21,
       "url": "https://www.last.fm/music/Daft+Punk"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Bell Towers",
       "playcount": 11,
       "url": "https://www.last.fm/music/Bell+Towers"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "Dawn Richard",
       "playcount": 11,
       "url": "https://www.last.fm/music/Dawn+Richard"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Opus III",
       "playcount": 10,
       "url": "https://www.last.fm/music/Opus+III"
-    },
-    {
-      "rank": 5,
-      "name": "D'Julz",
-      "playcount": 9,
-      "url": "https://www.last.fm/music/D%27Julz"
     }
   ],
   "albums": [
     {
       "rank": 1,
+      "name": "No Bad Memories",
+      "artist": "The Avalanches",
+      "playcount": 29,
+      "url": "https://www.last.fm/music/The+Avalanches/No+Bad+Memories"
+    },
+    {
+      "rank": 2,
       "name": "Discovery",
       "artist": "Daft Punk",
       "playcount": 16,
       "url": "https://www.last.fm/music/Daft+Punk/Discovery"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Creole Culture",
       "artist": "Dawn Richard",
       "playcount": 11,
       "url": "https://www.last.fm/music/Dawn+Richard/Creole+Culture"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "Advanced Style",
       "artist": "Bell Towers",
       "playcount": 10,
       "url": "https://www.last.fm/music/Bell+Towers/Advanced+Style"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Mind Fruit",
       "artist": "Opus III",
       "playcount": 10,
       "url": "https://www.last.fm/music/Opus+III/Mind+Fruit"
-    },
-    {
-      "rank": 5,
-      "name": "Lust for Life",
-      "artist": "Iggy Pop",
-      "playcount": 9,
-      "url": "https://www.last.fm/music/Iggy+Pop/Lust+for+Life"
     }
   ],
   "tracks": [
