@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-10-28T13:21:45+00:00",
+  "fetched_at": "2026-10-29T13:31:31+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
     {
       "rank": 1,
       "name": "The Avalanches",
-      "playcount": 29,
+      "playcount": 30,
       "url": "https://www.last.fm/music/The+Avalanches"
     },
     {
       "rank": 2,
       "name": "Daft Punk",
-      "playcount": 21,
+      "playcount": 22,
       "url": "https://www.last.fm/music/Daft+Punk"
     },
     {
@@ -39,14 +39,14 @@
       "rank": 1,
       "name": "No Bad Memories",
       "artist": "The Avalanches",
-      "playcount": 29,
+      "playcount": 30,
       "url": "https://www.last.fm/music/The+Avalanches/No+Bad+Memories"
     },
     {
       "rank": 2,
       "name": "Discovery",
       "artist": "Daft Punk",
-      "playcount": 16,
+      "playcount": 17,
       "url": "https://www.last.fm/music/Daft+Punk/Discovery"
     },
     {
@@ -95,17 +95,17 @@
     },
     {
       "rank": 4,
-      "name": "Something About Us",
-      "artist": "Daft Punk",
+      "name": "Toy Boy",
+      "artist": "Confidence Man",
       "playcount": 2,
-      "url": "https://www.last.fm/music/Daft+Punk/_/Something+About+Us"
+      "url": "https://www.last.fm/music/Confidence+Man/_/Toy+Boy"
     },
     {
       "rank": 5,
-      "name": "Voyager",
+      "name": "Digital Love",
       "artist": "Daft Punk",
       "playcount": 2,
-      "url": "https://www.last.fm/music/Daft+Punk/_/Voyager"
+      "url": "https://www.last.fm/music/Daft+Punk/_/Digital+Love"
     }
   ]
 }
