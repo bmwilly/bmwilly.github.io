@@ -60,13 +60,13 @@ The homepage widgets read committed `_data` JSON. There is no machine crontab. E
 
 ## Lichess ratings snapshot
 
-The homepage Blitz/Rapid charts read [`_data/lichess-rating-history.json`](_data/lichess-rating-history.json), refreshed by [`.github/workflows/lichess-ratings-snapshot.yml`](.github/workflows/lichess-ratings-snapshot.yml) (`0 6 * * *`, 06:00 UTC daily). The widget's **as of** date is snapshot `fetched_at` (when GitHub Actions pulled Lichess), not the last rated game. Jekyll inlines that file at build time; the browser never calls Lichess. Lichess only computes rating history for authenticated API calls, so the workflow uses a personal access token.
+The homepage Blitz/Rapid charts read [`_data/lichess-rating-history.json`](_data/lichess-rating-history.json), refreshed by [`.github/workflows/lichess-ratings-snapshot.yml`](.github/workflows/lichess-ratings-snapshot.yml) (`0 0,6,12,18 * * *`, every 6 hours UTC). The widget's **as of** date is snapshot `fetched_at` (when GitHub Actions pulled Lichess), not the last rated game. Jekyll inlines that file at build time; the browser never calls Lichess. Lichess only computes rating history for authenticated API calls, so the workflow uses a personal access token.
 
 `LICHESS_TOKEN` is a **GitHub Actions repo secret only**. It is not a local env var and is **not** required for `task serve`: Jekyll needs the committed `_data` snapshot. If that file is missing, the widget fails immediately instead of querying Lichess.
 
 1. Create a token at [lichess.org/account/oauth/token](https://lichess.org/account/oauth/token) (no special scopes required).
 2. Add it as the repo secret `LICHESS_TOKEN` (Settings → Secrets and variables → Actions).
-3. Run **Snapshot Lichess rating history** once from the Actions tab, then the daily GitHub Actions schedule keeps it fresh.
+3. Run **Snapshot Lichess rating history** once from the Actions tab, then the 4×/day GitHub Actions schedule keeps it fresh.
 
 ## Last.fm top-charts snapshot
 
