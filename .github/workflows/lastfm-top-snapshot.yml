@@ -6,7 +6,7 @@ name: Snapshot Last.fm top charts
 
 on:
   schedule:
-    # GitHub Actions schedule: daily 06:30 UTC (after the 06:00 Lichess snapshot)
+    # GitHub Actions schedule: daily 06:30 UTC (after the 06:00 Lichess slot)
     - cron: "30 6 * * *"
   workflow_dispatch:
 
