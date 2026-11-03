@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T16:26:48+00:00",
+  "fetched_at": "2026-11-03T14:32:45+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -17,21 +17,21 @@
     },
     {
       "rank": 3,
+      "name": "Dream 2 Science",
+      "playcount": 12,
+      "url": "https://www.last.fm/music/Dream+2+Science"
+    },
+    {
+      "rank": 4,
       "name": "Bell Towers",
       "playcount": 11,
       "url": "https://www.last.fm/music/Bell+Towers"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Dawn Richard",
       "playcount": 11,
       "url": "https://www.last.fm/music/Dawn+Richard"
-    },
-    {
-      "rank": 5,
-      "name": "Dream 2 Science",
-      "playcount": 10,
-      "url": "https://www.last.fm/music/Dream+2+Science"
     }
   ],
   "albums": [
@@ -58,17 +58,17 @@
     },
     {
       "rank": 4,
+      "name": "Dream 2 Science",
+      "artist": "Dream 2 Science",
+      "playcount": 11,
+      "url": "https://www.last.fm/music/Dream+2+Science/Dream+2+Science"
+    },
+    {
+      "rank": 5,
       "name": "Advanced Style",
       "artist": "Bell Towers",
       "playcount": 10,
       "url": "https://www.last.fm/music/Bell+Towers/Advanced+Style"
-    },
-    {
-      "rank": 5,
-      "name": "Mind Fruit",
-      "artist": "Opus III",
-      "playcount": 10,
-      "url": "https://www.last.fm/music/Opus+III/Mind+Fruit"
     }
   ],
   "tracks": [
