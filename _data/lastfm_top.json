@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T14:32:45+00:00",
+  "fetched_at": "2026-11-05T14:51:59+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -102,10 +102,10 @@
     },
     {
       "rank": 5,
-      "name": "Digital Love",
-      "artist": "Daft Punk",
+      "name": "Depths Of Reality",
+      "artist": "Cooper Saver",
       "playcount": 2,
-      "url": "https://www.last.fm/music/Daft+Punk/_/Digital+Love"
+      "url": "https://www.last.fm/music/Cooper+Saver/_/Depths+Of+Reality"
     }
   ]
 }
