@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-11T14:38:52+00:00",
+  "fetched_at": "2026-11-12T15:30:16+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -17,15 +17,15 @@
     },
     {
       "rank": 3,
-      "name": "Dream 2 Science",
-      "playcount": 12,
-      "url": "https://www.last.fm/music/Dream+2+Science"
+      "name": "The Velvet Underground",
+      "playcount": 14,
+      "url": "https://www.last.fm/music/The+Velvet+Underground"
     },
     {
       "rank": 4,
-      "name": "Bell Towers",
-      "playcount": 11,
-      "url": "https://www.last.fm/music/Bell+Towers"
+      "name": "Dream 2 Science",
+      "playcount": 12,
+      "url": "https://www.last.fm/music/Dream+2+Science"
     },
     {
       "rank": 5,
@@ -51,24 +51,24 @@
     },
     {
       "rank": 3,
+      "name": "Squeeze (Remastered)",
+      "artist": "The Velvet Underground",
+      "playcount": 12,
+      "url": "https://www.last.fm/music/The+Velvet+Underground/Squeeze+(Remastered)"
+    },
+    {
+      "rank": 4,
       "name": "Creole Culture",
       "artist": "Dawn Richard",
       "playcount": 11,
       "url": "https://www.last.fm/music/Dawn+Richard/Creole+Culture"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Dream 2 Science",
       "artist": "Dream 2 Science",
       "playcount": 11,
       "url": "https://www.last.fm/music/Dream+2+Science/Dream+2+Science"
-    },
-    {
-      "rank": 5,
-      "name": "Advanced Style",
-      "artist": "Bell Towers",
-      "playcount": 10,
-      "url": "https://www.last.fm/music/Bell+Towers/Advanced+Style"
     }
   ],
   "tracks": [
