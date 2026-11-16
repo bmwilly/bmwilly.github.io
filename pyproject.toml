@@ -7,7 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "loguru>=0.7.3",
     "pygments>=2.20",
-    "tornado>=6.5.10",
+    "tornado>=6.6.1",
 ]
 
 [dependency-groups]
