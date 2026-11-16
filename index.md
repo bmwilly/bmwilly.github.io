@@ -43,13 +43,13 @@ I have many personal interests (dance music, film, video games) and hobbies (che
 * [Threads](https://www.threads.net/@bmwilly9)
 * [Instagram](https://www.instagram.com/bmwilly9/)
 
-## Projects
+<!-- ## Projects
 
 * [Stokes-Brinkman solver in Julia](https://bmwilly.github.io/brinkman-stokes/)
 
 <a href="https://bmwilly.github.io/brinkman-stokes/">
   <img src="/docs/assets/brinkman-stokes.png" alt="Stokes-Brinkman flow field through obstacles" style="max-width: 280px; height: auto; border-radius: 8px; border: 1px solid #555; margin: 0.5em 0 1em;" />
-</a>
+</a> -->
 
 ## Art that I like
 
