@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-17T16:21:26+00:00",
+  "fetched_at": "2026-11-18T15:53:55+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
     {
       "rank": 1,
       "name": "The Avalanches",
-      "playcount": 30,
+      "playcount": 31,
       "url": "https://www.last.fm/music/The+Avalanches"
     },
     {
@@ -39,7 +39,7 @@
       "rank": 1,
       "name": "No Bad Memories",
       "artist": "The Avalanches",
-      "playcount": 30,
+      "playcount": 31,
       "url": "https://www.last.fm/music/The+Avalanches/No+Bad+Memories"
     },
     {
