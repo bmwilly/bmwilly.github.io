@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T15:53:55+00:00",
+  "fetched_at": "2026-11-19T15:58:28+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -23,15 +23,15 @@
     },
     {
       "rank": 4,
-      "name": "Dream 2 Science",
-      "playcount": 12,
-      "url": "https://www.last.fm/music/Dream+2+Science"
+      "name": "Modest Mouse",
+      "playcount": 15,
+      "url": "https://www.last.fm/music/Modest+Mouse"
     },
     {
       "rank": 5,
-      "name": "John Cale",
-      "playcount": 12,
-      "url": "https://www.last.fm/music/John+Cale"
+      "name": "Alchemical Sisters",
+      "playcount": 14,
+      "url": "https://www.last.fm/music/Alchemical+Sisters"
     }
   ],
   "albums": [
@@ -51,24 +51,24 @@
     },
     {
       "rank": 3,
+      "name": "The Moon & Antarctica",
+      "artist": "Modest Mouse",
+      "playcount": 15,
+      "url": "https://www.last.fm/music/Modest+Mouse/The+Moon+&+Antarctica"
+    },
+    {
+      "rank": 4,
+      "name": "Alchemical Sisters",
+      "artist": "Alchemical Sisters",
+      "playcount": 13,
+      "url": "https://www.last.fm/music/Alchemical+Sisters/Alchemical+Sisters"
+    },
+    {
+      "rank": 5,
       "name": "Vintage Violence",
       "artist": "John Cale",
       "playcount": 12,
       "url": "https://www.last.fm/music/John+Cale/Vintage+Violence"
-    },
-    {
-      "rank": 4,
-      "name": "Squeeze (Remastered)",
-      "artist": "The Velvet Underground",
-      "playcount": 12,
-      "url": "https://www.last.fm/music/The+Velvet+Underground/Squeeze+(Remastered)"
-    },
-    {
-      "rank": 5,
-      "name": "Creole Culture",
-      "artist": "Dawn Richard",
-      "playcount": 11,
-      "url": "https://www.last.fm/music/Dawn+Richard/Creole+Culture"
     }
   ],
   "tracks": [
@@ -88,24 +88,24 @@
     },
     {
       "rank": 3,
-      "name": "Dance Shake Swing",
-      "artist": "Billy Nightmare",
+      "name": "Anytime Sisters Slide",
+      "artist": "Alchemical Sisters",
       "playcount": 2,
-      "url": "https://www.last.fm/music/Billy+Nightmare/_/Dance+Shake+Swing"
+      "url": "https://www.last.fm/music/Alchemical+Sisters/_/Anytime+Sisters+Slide"
     },
     {
       "rank": 4,
-      "name": "Toy Boy",
-      "artist": "Confidence Man",
+      "name": "Double Acid",
+      "artist": "Alchemical Sisters",
       "playcount": 2,
-      "url": "https://www.last.fm/music/Confidence+Man/_/Toy+Boy"
+      "url": "https://www.last.fm/music/Alchemical+Sisters/_/Double+Acid"
     },
     {
       "rank": 5,
-      "name": "Depths Of Reality",
-      "artist": "Cooper Saver",
+      "name": "One 2 One 2 Three Four",
+      "artist": "Alchemical Sisters",
       "playcount": 2,
-      "url": "https://www.last.fm/music/Cooper+Saver/_/Depths+Of+Reality"
+      "url": "https://www.last.fm/music/Alchemical+Sisters/_/One+2+One+2+Three+Four"
     }
   ]
 }
