@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-24T18:06:42+00:00",
+  "fetched_at": "2026-11-25T17:30:17+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -58,17 +58,17 @@
     },
     {
       "rank": 4,
+      "name": "Mama Said Knock You Out",
+      "artist": "LL Cool J",
+      "playcount": 14,
+      "url": "https://www.last.fm/music/LL+Cool+J/Mama+Said+Knock+You+Out"
+    },
+    {
+      "rank": 5,
       "name": "Alchemical Sisters",
       "artist": "Alchemical Sisters",
       "playcount": 13,
       "url": "https://www.last.fm/music/Alchemical+Sisters/Alchemical+Sisters"
-    },
-    {
-      "rank": 5,
-      "name": "Vintage Violence",
-      "artist": "John Cale",
-      "playcount": 12,
-      "url": "https://www.last.fm/music/John+Cale/Vintage+Violence"
     }
   ],
   "tracks": [
@@ -81,31 +81,31 @@
     },
     {
       "rank": 2,
+      "name": "Dance Shake Swing",
+      "artist": "Billy Nightmare",
+      "playcount": 3,
+      "url": "https://www.last.fm/music/Billy+Nightmare/_/Dance+Shake+Swing"
+    },
+    {
+      "rank": 3,
       "name": "Ritmo",
       "artist": "Gide\u00f6n",
       "playcount": 3,
       "url": "https://www.last.fm/music/Gide%C3%B6n/_/Ritmo"
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "name": "The Moodymann",
+      "artist": "2 Billion Beats",
+      "playcount": 2,
+      "url": "https://www.last.fm/music/2+Billion+Beats/_/The+Moodymann"
+    },
+    {
+      "rank": 5,
       "name": "Anytime Sisters Slide",
       "artist": "Alchemical Sisters",
       "playcount": 2,
       "url": "https://www.last.fm/music/Alchemical+Sisters/_/Anytime+Sisters+Slide"
-    },
-    {
-      "rank": 4,
-      "name": "Double Acid",
-      "artist": "Alchemical Sisters",
-      "playcount": 2,
-      "url": "https://www.last.fm/music/Alchemical+Sisters/_/Double+Acid"
-    },
-    {
-      "rank": 5,
-      "name": "One 2 One 2 Three Four",
-      "artist": "Alchemical Sisters",
-      "playcount": 2,
-      "url": "https://www.last.fm/music/Alchemical+Sisters/_/One+2+One+2+Three+Four"
     }
   ]
 }
