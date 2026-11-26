@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-25T17:30:17+00:00",
+  "fetched_at": "2026-11-26T17:12:31+00:00",
   "period": "3month",
   "user": "bmwilly",
   "artists": [
@@ -18,7 +18,7 @@
     {
       "rank": 3,
       "name": "The Velvet Underground",
-      "playcount": 20,
+      "playcount": 21,
       "url": "https://www.last.fm/music/The+Velvet+Underground"
     },
     {
@@ -88,24 +88,24 @@
     },
     {
       "rank": 3,
+      "name": "Technologies",
+      "artist": "Fred Ventura",
+      "playcount": 3,
+      "url": "https://www.last.fm/music/Fred+Ventura/_/Technologies"
+    },
+    {
+      "rank": 4,
       "name": "Ritmo",
       "artist": "Gide\u00f6n",
       "playcount": 3,
       "url": "https://www.last.fm/music/Gide%C3%B6n/_/Ritmo"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "The Moodymann",
       "artist": "2 Billion Beats",
       "playcount": 2,
       "url": "https://www.last.fm/music/2+Billion+Beats/_/The+Moodymann"
-    },
-    {
-      "rank": 5,
-      "name": "Anytime Sisters Slide",
-      "artist": "Alchemical Sisters",
-      "playcount": 2,
-      "url": "https://www.last.fm/music/Alchemical+Sisters/_/Anytime+Sisters+Slide"
     }
   ]
 }
